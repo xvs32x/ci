@@ -1,0 +1,199 @@
+<?php
+class gallery_model extends CI_Model {
+
+	public $table = 'gallery';
+	public $table_images = 'gallery_images';
+
+
+	function __construct()
+	{
+		parent::__construct();
+		$this->originals_path = Settings::get('gallery_originals');
+		$this->resizes_path = Settings::get('gallery_resizes');
+		$this->thumbs_path = Settings::get('gallery_thumbs');
+		$this->originals_url = Settings::get('site_url').'uploads/gallery/originals/';
+		$this->resizes_url = Settings::get('site_url').'uploads/gallery/resizes/';
+		$this->thumbs_url = Settings::get('site_url').'uploads/gallery/thumbs/';
+	}
+
+	/*
+	 * Список всех альбомов
+	 * */
+	public function get_list(){
+		return $this->db->get($this->table)
+			->result();
+	}
+
+	/*
+	 * Получить записи favorites
+	 * */
+	public function get_favorites($count = 20) {
+		return $this->db->get_where($this->table, array('favorite' => 1), $count)
+			->result();
+	}
+
+	/*
+	 * Получиить запись по id
+	 * */
+	public function get_record($value, $mode = 'id') {
+		return $this->db->get_where($this->table, array($mode => $value))
+			->row();
+	}
+
+
+	/*
+	 * Добавить запись в Mysql
+	 * */
+	public function add_record() {
+		$data = array(
+			'id' => NULL,
+			'name' => $this->input->post('name'),
+			'alias' => $this->input->post('alias'),
+			'category_id' => $this->input->post('category_id'),
+			'description' => $this->input->post('description'),
+			'public' => $this->input->post('public'),
+			'position' => $this->input->post('position'),
+		);
+		$this->db->insert($this->table, $data);
+	}
+
+	/*
+	 * Обновить запись в Mysql
+	 * */
+	public function update($id){
+		$data = array(
+			'name' => $this->input->post('name'),
+			'alias' => $this->input->post('alias'),
+			'category_id' => $this->input->post('category_id'),
+			'description' => $this->input->post('description'),
+			'public' => $this->input->post('public') OR NULL,
+			'position' => $this->input->post('position'),
+		);
+		return $this->db->update($this->table, $data, array('id' => $id));
+	}
+
+	/*
+	 * Удалить запись из Mysql
+	 * */
+	public function delete($id){
+		return $this->db->delete($this->table, array('id' => (int)$id));
+	}
+
+	/*
+	 * Валидация формы добавление альбома
+	 * */
+	public function validate() {
+		$this->form_validation->set_rules('name', 'Название', 'trim|required');
+		$this->form_validation->set_rules('alias', 'Псевдоним', 'trim|required');
+		$this->form_validation->set_rules('category_id', 'Категория', 'required');
+		$this->form_validation->set_rules('description', 'Описание', 'trim');
+		$this->form_validation->set_rules('position', 'Позиция', 'not_required');
+		$this->form_validation->set_rules('public', 'Опубликовано', 'not_required');
+		$this->input->post('id') AND $this->form_validation->set_rules('id', 'id', 'not_required');
+	}
+
+	/*
+	 * Обработка изображений
+	 * Resize & Drop & Move in Paths
+	 * */
+	public function upload_images($data){
+		$this->load->library('image_lib');
+		$r_image = $this->gallery_model->resize_image($data['file_name']);
+		if(!is_array($r_image)){
+			if(Settings::get('gallery_cropper')){
+				//todo место для кропера
+				$t_image = $this->gallery_model->create_thumb($r_image);
+				if(is_array($r_image)){
+					return $t_image;
+				}
+			} else {
+				$t_image = $this->gallery_model->create_thumb($r_image);
+				if(is_array($r_image)){
+					return $t_image;
+				}
+			}
+		} else {
+			return $r_image;
+		}
+		return $t_image;
+	}
+
+	/*
+	 * Создание превью картинки
+	 * */
+	public function create_thumb($image){
+		$config = array(
+			'quality' => Settings::get('gallery_image_quality'),
+			'source_image'	=> $this->originals_path.$image,
+			'width' => Settings::get('gallery_preview_width'),
+			'height' => Settings::get('gallery_preview_height'),
+			'new_image' => $this->thumbs_path.$image,
+		);
+		$this->image_lib->initialize($config);
+		if(!$this->image_lib->resize()){
+			return array('error' => $this->image_lib->display_errors());
+		} else {
+			return $image;
+		}
+	}
+
+	/*
+	 * Создание среднего изображения
+	 * */
+	public function resize_image($image){
+		$config = array(
+			'quality' => Settings::get('gallery_image_quality'),
+			'source_image'	=> $this->originals_path.$image,
+			'width' => Settings::get('gallery_image_width'),
+			'height' => Settings::get('gallery_image_height'),
+			'new_image' => $this->resizes_path.$image,
+		);
+		$this->image_lib->initialize($config);
+		if(!$this->image_lib->resize()){
+			return array('error' => $this->image_lib->display_errors());
+		} else {
+			return $image;
+		}
+	}
+
+
+	/*
+	 * Добавление изображения в БД
+	 * */
+	public function add_image($album_id, $image){
+		$data = array(
+			'album_id' => (int)$album_id,
+			'image' => $image,
+		);
+		$this->db->insert($this->table_images, $data);
+		$id = $this->db->insert_id();
+		return $id;
+	}
+
+	/*
+	 * Вывод изображений альбома по его id
+	 * */
+	public function get_images_by_album($id){
+		return $this->db->get_where($this->table_images, array('album_id' => $id))
+			->result();
+	}
+
+	/*
+	 * Вывести изображение по признаку
+	 * */
+	public function get_image($value, $mode = 'id'){
+		return $this->db->get_where($this->table_images, array($mode => $value))
+			->row();
+	}
+
+	/*
+	 * Удаление изображения и файлов
+	 * */
+	public function delete_image($id){
+		$image = $this->get_image($id);
+		unlink($this->originals_path.get_value($image, 'image'));
+		unlink($this->resizes_path.get_value($image, 'image'));
+		unlink($this->thumbs_path.get_value($image, 'image'));
+		$this->db->delete($this->table_images, array('id' => (int)$id));
+	}
+}

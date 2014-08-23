@@ -1,0 +1,13 @@
+body {
+	margin-top: 20px;
+	/*background: url(images/brickwall.png);*/
+}
+
+.jumbotron {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.img-rounded {
+	margin: 3px 0;
+}
