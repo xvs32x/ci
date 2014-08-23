@@ -7,6 +7,7 @@
 	</div>
 <? endif ?>
 
+
 <? if (count($favorites)): ?>
 	<div class="row">
 		<? foreach ($favorites as $article): ?>
@@ -17,5 +18,14 @@
 	</div>
 	<hr/>
 <? endif ?>
+
+    <div class="row">
+       <div class="col-md-12">
+           <?= $this->load->view('site/chunks/slider/index') ?>
+       </div>
+    </div>
+    <hr/>
+
+
 
 <?= $this->load->view('site/chunks/footer') ?>

@@ -1,5 +1,5 @@
 <!-- Static navbar -->
-<div class="navbar navbar-default" role="navigation">
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
 	<div class="container-fluid">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -14,7 +14,7 @@
 			<ul class="nav navbar-nav">
 				<?= show_link(Settings::get('site_url'), 'Главная') ?>
 				<?= show_link('articles/', 'Статьи') ?>
-				<li><a href="#">Link</a></li>
+<!--				<li><a href="#">Link</a></li>-->
 				<li class="dropdown">
 					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
 					<ul class="dropdown-menu" role="menu">
@@ -29,8 +29,8 @@
 				</li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
-				<li class="active"><a href="./">Default</a></li>
-				<li><a href="../navbar-static-top/">Static top</a></li>
+<!--				<li class="active"><a href="./">Default</a></li>-->
+<!--				<li><a href="../navbar-static-top/">Static top</a></li>-->
 				<li><a href="../navbar-fixed-top/">Fixed top</a></li>
 			</ul>
 		</div><!--/.nav-collapse -->

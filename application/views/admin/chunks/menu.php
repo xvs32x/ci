@@ -25,51 +25,22 @@
 <div class="container">
 <div class="row admin_menu">
 	<div class="col-xs-4 col-md-2">
-		<a href="admin/settings" class="thumbnail color-blue text-center">
-			<span style="font-size: 100px;" class="glyphicon glyphicon-cog"></span>
-			<ul class="list-group no-margin no-padding">
-				<li class="list-group-item">Настройки</li>
-			</ul>
-		</a>
+        <?= show_link(Settings::get('site_url').'admin/settings/', 'Настройки', TRUE, $icon = 'glyphicon glyphicon-cog')?>
 	</div>
 	<div class="col-xs-4 col-md-2">
-		<a href="admin/categs" class="thumbnail color-orange text-center">
-			<span style="font-size: 100px;" class="glyphicon glyphicon-th"></span>
-			<ul class="list-group no-margin no-padding">
-				<li class="list-group-item">Категории</li>
-			</ul>
-		</a>
+        <?= show_link(Settings::get('site_url').'admin/categs/', 'Категории', TRUE, $icon = 'glyphicon glyphicon-th')?>
 	</div>
 	<div class="col-xs-4 col-md-2">
-		<a href="admin/articles" class="thumbnail color-green text-center">
-			<span style="font-size: 100px;" class="glyphicon glyphicon-file"></span>
-			<ul class="list-group no-margin no-padding">
-				<li class="list-group-item">Статьи</li>
-			</ul>
-		</a>
+        <?= show_link(Settings::get('site_url').'admin/articles/', 'Статьи', TRUE, $icon = 'glyphicon glyphicon-file')?>
 	</div>
+    <div class="col-xs-4 col-md-2">
+        <?= show_link(Settings::get('site_url').'admin/gallery/', 'Галерея', TRUE, $icon = 'glyphicon glyphicon-camera')?>
+    </div>
 	<div class="col-xs-4 col-md-2">
-		<a href="admin/pages" class="thumbnail color-red text-center">
-			<span style="font-size: 100px;" class="glyphicon glyphicon-book"></span>
-			<ul class="list-group no-margin no-padding">
-				<li class="list-group-item">Страницы</li>
-			</ul>
-		</a>
+        <?= show_link(Settings::get('site_url').'admin/pages/', 'Страницы', TRUE, $icon = 'glyphicon glyphicon-book')?>
 	</div>
+
 	<div class="col-xs-4 col-md-2">
-		<a href="admin/gallery" class="thumbnail color-red text-center">
-			<span style="font-size: 100px;" class="glyphicon glyphicon-camera"></span>
-			<ul class="list-group no-margin no-padding">
-				<li class="list-group-item">Галерея</li>
-			</ul>
-		</a>
-	</div>
-	<div class="col-xs-4 col-md-2">
-		<a href="admin/statistic" class="thumbnail color-red text-center">
-			<span style="font-size: 100px;" class="glyphicon glyphicon-stats"></span>
-			<ul class="list-group no-margin no-padding">
-				<li class="list-group-item">Статистика</li>
-			</ul>
-		</a>
+        <?= show_link(Settings::get('site_url').'admin/statistic/', 'Статистика', TRUE, $icon = 'glyphicon glyphicon-stats')?>
 	</div>
 </div>

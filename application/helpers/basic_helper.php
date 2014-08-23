@@ -111,15 +111,27 @@ function delete_keys($arr, $k = 'id', $v = 'name')
 /*
  * Вывести элемент меню
  * */
-function show_link($link, $name)
+function show_link($link, $name, $admin = FALSE, $icon = FALSE)
 {
 	$active = '';
 	$self = get_instance();
-	$self->load->helper('url');
-	$url = isset($self->uri->segments['1']) ? $self->uri->segments['1'] : 'FALSE';
-	(($url == 'FALSE' AND $link == Settings::get('site_url')) OR substr_count($link, $url)) AND $active = 'class="active"';
-	return '<li ' . $active . '><a href="' . $link . '">' . $name . '</a></li>';
+	$url = $admin ? (isset($self->uri->segments['2']) ? $self->uri->segments['2'] : TRUE) : (isset($self->uri->segments['1']) ? $self->uri->segments['1'] : TRUE);
+	(($url == 'FALSE' AND $link == Settings::get('site_url')) OR substr_count($link, $url)) AND $active = 'active';
+    if($admin){
+        $result = '
+        <a href="'.$link.'" class="thumbnail color-blue text-center '.$active.'">
+			<span style="font-size: 100px;" class="'.$icon.'"></span>
+			<ul class="list-group no-margin no-padding">
+				<li class="list-group-item">'.$name.'</li>
+			</ul>
+		</a>';
+    } else {
+        $result =  '<li class="' . $active . '"><a href="' . $link . '">' . $name . '</a></li>';
+    }
+    return $result;
 }
+
+
 
 
 /*

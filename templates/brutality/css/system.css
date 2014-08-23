@@ -35,13 +35,13 @@ a:hover {
 	border: none;
 }
 
-.admin_menu a:hover .list-group-item {
+.admin_menu a:hover .list-group-item, .admin_menu a.active .list-group-item  {
 	color: #fff;
 	background: #428BCA;
 	border: none;
 }
 
-.admin_menu a:hover span {
+.admin_menu a:hover span, .admin_menu a.active span {
 	color: #428BCA;
 }
 
@@ -56,6 +56,12 @@ a:hover {
 
 a.delete {
 	/*color: #A1252D;*/
+}
+
+.file-control {
+    padding: 0;
+    height: auto;
+    line-height: inherit;
 }
 
 /*//system*/

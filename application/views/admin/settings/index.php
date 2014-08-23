@@ -3,14 +3,14 @@
 	<div class="row content">
 		<h3><a href="<?= Settings::get('site_url')?>admin/settings"><span class="glyphicon glyphicon-cog"></span> Настройки сайта</a></h3>
 		<div class="well well-sm">
-			<a href="admin/setting_edit" class="text-left btn btn-default btn-block"><span class="glyphicon glyphicon-plus"></span> Добавить параметр</a>
+			<a href="admin/settings/add" class="text-left btn btn-default btn-block"><span class="glyphicon glyphicon-plus"></span> Добавить параметр</a>
 		</div>
 		<?= show_message($form_success)?>
 		<?if($list):?>
 			<div class="list-group">
 				<?foreach($list as $item):?>
 					<li class="list-group-item" id="id_<?= get_value($item, 'id')?>">
-						<a href="admin/setting_edit/<?= $item['id']?>">
+						<a href="admin/settings/edit/<?= $item['id']?>">
 							<b><?= $item['name']?></b>
 							<?= $item['description'] ? '('.$item['description'].')':''?>
 							<span class="label label-default"><?= $item['type']?></span>

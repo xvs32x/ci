@@ -58,7 +58,7 @@
 							<br />
 							<div class="col-sm-12">
 								<div class="well well-sm">
-									<?= form_input(array('name' => 'file',  'id' => 'input10', 'placeholder' => 'Изображения', 'class' => 'form-control', 'type' => 'file', 'multiple' => 'multiple'))?>
+									<?= form_input(array('name' => 'file',  'id' => 'input10', 'placeholder' => 'Изображения', 'class' => 'form-control file-control', 'type' => 'file', 'multiple' => 'multiple'))?>
 								</div>
 								<hr />
 							</div>

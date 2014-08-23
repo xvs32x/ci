@@ -3,14 +3,14 @@
 	<div class="row content">
 		<h3><a href="<?=Settings::get('site_url')?>admin/articles/"><span class="glyphicon glyphicon-file"></span> Статьи</a></h3>
 		<div class="well well-sm">
-			<a href="admin/article_edit" class="text-left btn btn-default btn-block"><span class="glyphicon glyphicon-plus"></span> Добавить статью</a>
+			<a href="admin/articles/add" class="text-left btn btn-default btn-block"><span class="glyphicon glyphicon-plus"></span> Добавить статью</a>
 		</div>
 		<?= show_message($form_success)?>
 		<?if($list):?>
 			<div class="list-group">
 				<?foreach($list as $item):?>
 					<li class="list-group-item" id="id_<?= get_value($item, 'id')?>">
-						<a href="<?=Settings::get('site_url')?>admin/article_edit/<?= get_value($item, 'id')?>">
+						<a href="<?=Settings::get('site_url')?>admin/articles/edit/<?= get_value($item, 'id')?>">
 							<?= get_value($item, 'name')?>
 						</a>
 						<?if(get_value($item, 'favorite')):?>
