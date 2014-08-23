@@ -8,7 +8,7 @@ class Articles extends CI_Controller {
 	* Cписок статей сайта
 	* */
 	public function index($page = 1){
-		Breadcrumbs::set(Settings::get('site_url').'articles/', 'Статьи');
+		Breadcrumbs::set(Settings::get('site_url').'articles/', 'Статьи', 'glyphicon glyphicon-file');
 		$this->db->limit(Settings::get('articles_items_per_pages'), Settings::get('articles_items_per_pages')*($page-1));
 		$list = $this->articles_model->get_list() OR show_404();
 		$config = array(
@@ -26,8 +26,8 @@ class Articles extends CI_Controller {
 	* */
 	public function with_categs($category_alias, $page = 1){
 		$category = $this->categs_model->get_record($category_alias, 'alias');
-		Breadcrumbs::set(Settings::get('site_url').'articles/', 'Статьи');
-		Breadcrumbs::set(Settings::get('site_url').'articles/'.get_value($category, 'alias'), get_value($category, 'name'));
+		Breadcrumbs::set(Settings::get('site_url').'articles/', 'Статьи', 'glyphicon glyphicon-file');
+		Breadcrumbs::set(Settings::get('site_url').'articles/'.get_value($category, 'alias'), get_value($category, 'name'), 'glyphicon glyphicon-th');
 		$count = $this->db
 			->where('category_id', get_value($category, 'id'))
 			->count_all_results($this->articles_model->table);
@@ -51,9 +51,9 @@ class Articles extends CI_Controller {
 		$article = $this->articles_model->get_record($alias, 'alias');
 		$category = $this->categs_model->get_record(get_value($article, 'category_id'));
 		//Хлебные крошки
-		Breadcrumbs::set(Settings::get('site_url').'articles/', 'Статьи');
-		Breadcrumbs::set(Settings::get('site_url').'articles/'.get_value($category, 'alias'), get_value($category, 'name'));
-		Breadcrumbs::set(get_value($article, 'alias'), get_value($article, 'name'));
+		Breadcrumbs::set(Settings::get('site_url').'articles/', 'Статьи', 'glyphicon glyphicon-file');
+		Breadcrumbs::set(Settings::get('site_url').'articles/'.get_value($category, 'alias'), get_value($category, 'name'), 'glyphicon glyphicon-th');
+		Breadcrumbs::set(get_value($article, 'alias'), get_value($article, 'name'), 'glyphicon glyphicon-arrow-right');
 		//Шаблон
 		$this->load->view('site/articles/item', $article);
 

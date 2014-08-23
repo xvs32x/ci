@@ -13,18 +13,23 @@ class Breadcrumbs {
 		//Добавляем главную в крошки
 		self::$breadcrumbs[0] = array(
 			'link' => Settings::get('site_url'),
-			'name' => 'Главная'
+			'name' => 'Главная',
+            'icon' => 'glyphicon glyphicon-home',
 		);
 
 	}
 
 	/*
 	 * Добавление крошек
+	 * @link
+	 * @name
+	 * @icon = FALSE
 	 * */
-	public static function set($link, $name){
+	public static function set($link, $name, $icon = 'glyphicon glyphicon-arrow-right'){
 		self::$breadcrumbs[] = array(
 			'link' => $link,
-			'name' => $name
+			'name' => $name,
+            'icon' => $icon,
 		);
 	}
 
@@ -37,10 +42,11 @@ class Breadcrumbs {
 		$i = 1;
 		$result[] = '<ol class="breadcrumb">';
 		foreach(self::$breadcrumbs as $item){
-			if($i != $count) {
-				$result[] = '<li><a href="'.$item['link'].'">'.$item['name'].'</a></li>';
+            $item['icon'] != FALSE ? $icon = '<span class="'.$item['icon'].'"></span> ' : $icon = FALSE;
+            if($i != $count) {
+				$result[] = '<li style="color: #999;">'.$icon.'<a href="'.$item['link'].'">'.$item['name'].'</a></li>';
 			} else {
-				$result[] = '<li class="active">'.$item['name'].'</li>';
+				$result[] = '<li class="active">'.$icon.$item['name'].'</li>';
 			}
 			$i++;
 		}

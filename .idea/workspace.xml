@@ -26,7 +26,7 @@
       <file leaf-file-name="edit.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/admin/gallery/edit.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="145" selection-start="4291" selection-end="4291" vertical-scroll-proportion="-17.76923" vertical-offset="898" max-vertical-offset="1734">
+            <state line="80" column="145" selection-start="4291" selection-end="4291" vertical-scroll-proportion="-9.791667" vertical-offset="965" max-vertical-offset="1530">
               <folding />
             </state>
           </provider>
@@ -35,7 +35,7 @@
       <file leaf-file-name="admin.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="283" column="45" selection-start="7654" selection-end="7654" vertical-scroll-proportion="-9.115385" vertical-offset="4574" max-vertical-offset="6919">
+            <state line="283" column="45" selection-start="7654" selection-end="7654" vertical-scroll-proportion="0.0" vertical-offset="4245" max-vertical-offset="6105">
               <folding />
             </state>
           </provider>
@@ -44,7 +44,7 @@
       <file leaf-file-name="articles.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/articles.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="47" selection-start="1861" selection-end="1861" vertical-scroll-proportion="-26.807692" vertical-offset="0" max-vertical-offset="1156">
+            <state line="55" column="84" selection-start="2640" selection-end="2673" vertical-scroll-proportion="-14.5" vertical-offset="477" max-vertical-offset="1020">
               <folding />
             </state>
           </provider>
@@ -53,7 +53,7 @@
       <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/site/chunks/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
               <folding />
             </state>
           </provider>
@@ -62,7 +62,7 @@
       <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/config/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="423" column="48" selection-start="14532" selection-end="14532" vertical-scroll-proportion="-27.423077" vertical-offset="6478" max-vertical-offset="7395">
+            <state line="423" column="48" selection-start="14532" selection-end="14532" vertical-scroll-proportion="0.0" vertical-offset="6345" max-vertical-offset="6525">
               <folding />
             </state>
           </provider>
@@ -71,34 +71,16 @@
       <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/admin/chunks/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="33" selection-start="58" selection-end="58" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
+            <state line="4" column="33" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="breadcrumbs.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="breadcrumbs.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/libraries/breadcrumbs.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="17" selection-start="424" selection-end="424" vertical-scroll-proportion="-0.0" vertical-offset="391" max-vertical-offset="1581">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gallery.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/brutality/js/gallery/gallery.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="142" column="40" selection-start="3391" selection-end="3391" vertical-scroll-proportion="0.6344086" vertical-offset="1883" max-vertical-offset="2873">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="favorite.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/site/chunks/articles/favorite.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="75" selection-start="75" selection-end="75" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="153">
+            <state line="27" column="86" selection-start="582" selection-end="582" vertical-scroll-proportion="0.6685083" vertical-offset="42" max-vertical-offset="1485">
               <folding />
             </state>
           </provider>
@@ -107,7 +89,7 @@
       <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/admin/chunks/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="64" selection-start="873" selection-end="873" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="476">
+            <state line="18" column="64" selection-start="873" selection-end="873" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="420">
               <folding />
             </state>
           </provider>
@@ -158,7 +140,6 @@
         <option value="$PROJECT_DIR$/system/language/english/upload_lang.php" />
         <option value="$PROJECT_DIR$/templates/brutality/css/system.css" />
         <option value="$PROJECT_DIR$/templates/brutality/css/style.css" />
-        <option value="$PROJECT_DIR$/application/libraries/breadcrumbs.php" />
         <option value="$PROJECT_DIR$/application/models/categs_model.php" />
         <option value="$PROJECT_DIR$/application/config/pagination.php" />
         <option value="$PROJECT_DIR$/application/models/articles_model.php" />
@@ -169,20 +150,21 @@
         <option value="$PROJECT_DIR$/templates/brutality/js/cropper/images-loaded.js" />
         <option value="$PROJECT_DIR$/application/config/config.php" />
         <option value="$PROJECT_DIR$/application/views/admin/chunks/header.php" />
-        <option value="$PROJECT_DIR$/application/controllers/articles.php" />
         <option value="$PROJECT_DIR$/templates/brutality/js/url/jquery.friendly_url.min.js" />
         <option value="$PROJECT_DIR$/application/controllers/admin.php" />
         <option value="$PROJECT_DIR$/application/views/site/chunks/articles/favorite.php" />
         <option value="$PROJECT_DIR$/templates/brutality/js/gallery/gallery.js" />
+        <option value="$PROJECT_DIR$/application/controllers/articles.php" />
+        <option value="$PROJECT_DIR$/application/libraries/breadcrumbs.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="59" />
+    <option name="y" value="24" />
+    <option name="width" value="1307" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -210,7 +192,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -597,6 +578,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -621,6 +620,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -693,8 +693,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <frame x="59" y="24" width="1307" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -702,7 +702,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20926517" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21264823" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -733,9 +733,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2683706" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -755,6 +755,13 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/application/views/admin/chunks/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="64" selection-start="873" selection-end="873" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="46" selection-start="172" selection-end="172" vertical-scroll-proportion="0.10011779" vertical-offset="0" max-vertical-offset="849" />
@@ -838,11 +845,6 @@
     <entry file="file://$PROJECT_DIR$/application/views/admin/gallery/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="40" selection-start="718" selection-end="718" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="493" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/123.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="12" selection-start="397" selection-end="397" vertical-scroll-proportion="0.34040046" vertical-offset="0" max-vertical-offset="849" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/brutality/js/url/url.js">
@@ -937,9 +939,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/site/chunks/menu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="1547" selection-end="1547" vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="765">
-          <folding />
-        </state>
+        <state line="38" column="0" selection-start="1547" selection-end="1547" vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="765" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/site/chunks/footer.php">
@@ -949,85 +949,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/gallery/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="145" selection-start="4291" selection-end="4291" vertical-scroll-proportion="-17.76923" vertical-offset="898" max-vertical-offset="1734">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/brutality/js/cropper/images-loaded.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="6832" selection-start="6949" selection-end="6949" vertical-scroll-proportion="0.118329465" vertical-offset="0" max-vertical-offset="862">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/libraries/breadcrumbs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="17" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1581">
-          <folding />
-        </state>
+        <state line="6" column="6832" selection-start="6949" selection-end="6949" vertical-scroll-proportion="0.118329465" vertical-offset="0" max-vertical-offset="862" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/config/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="423" column="48" selection-start="14532" selection-end="14532" vertical-scroll-proportion="-27.423077" vertical-offset="6478" max-vertical-offset="7395">
+        <state line="423" column="48" selection-start="14532" selection-end="14532" vertical-scroll-proportion="0.0" vertical-offset="6345" max-vertical-offset="6525">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/chunks/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="64" selection-start="873" selection-end="873" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/articles.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="47" selection-start="1861" selection-end="1861" vertical-scroll-proportion="-26.807692" vertical-offset="0" max-vertical-offset="1156">
+        <state line="18" column="64" selection-start="873" selection-end="873" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="420">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/brutality/js/url/jquery.friendly_url.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="58" selection-start="430" selection-end="430" vertical-scroll-proportion="0.2563805" vertical-offset="0" max-vertical-offset="862">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
+        <state line="13" column="58" selection-start="430" selection-end="430" vertical-scroll-proportion="0.2563805" vertical-offset="0" max-vertical-offset="862" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/config/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="52" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.73969376" vertical-offset="103" max-vertical-offset="952">
-          <folding />
-        </state>
+        <state line="43" column="52" selection-start="1515" selection-end="1515" vertical-scroll-proportion="0.73969376" vertical-offset="103" max-vertical-offset="952" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/chunks/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="33" selection-start="58" selection-end="58" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="170">
+        <state line="4" column="33" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="150">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="283" column="45" selection-start="7654" selection-end="7654" vertical-scroll-proportion="-9.115385" vertical-offset="4574" max-vertical-offset="6919">
+        <state line="283" column="45" selection-start="7654" selection-end="7654" vertical-scroll-proportion="0.0" vertical-offset="4245" max-vertical-offset="6105">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/site/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="875">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="875" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/site/chunks/articles/favorite.php">
@@ -1039,7 +1006,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/brutality/js/gallery/gallery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="142" column="40" selection-start="3391" selection-end="3391" vertical-scroll-proportion="0.6344086" vertical-offset="1883" max-vertical-offset="2873">
+        <state line="139" column="37" selection-start="3316" selection-end="3316" vertical-scroll-proportion="0.0" vertical-offset="1968" max-vertical-offset="2535">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/gallery/edit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="145" selection-start="4291" selection-end="4291" vertical-scroll-proportion="-9.791667" vertical-offset="965" max-vertical-offset="1530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/articles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="84" selection-start="2640" selection-end="2673" vertical-scroll-proportion="-14.5" vertical-offset="477" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/libraries/breadcrumbs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="86" selection-start="582" selection-end="582" vertical-scroll-proportion="0.6685083" vertical-offset="42" max-vertical-offset="1485">
           <folding />
         </state>
       </provider>
