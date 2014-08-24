@@ -18,7 +18,4 @@ class Settings {
 		self::$settings[$key] = $value;
 	}
 
-	public static function reload($arr){
-		self::$settings == $arr;
-	}
 }

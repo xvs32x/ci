@@ -372,11 +372,11 @@ $config['admin_password'] = 'admin';
 /*
  * Components
  * */
-$config['components'] = array(
-	'articles' => 'Статьи',
-	'categs' => 'Категории',
-	'gallery' => 'Галерея',
-);
+//$config['components'] = array(
+//	'articles' => 'Статьи',
+//	'categs' => 'Категории',
+//	'gallery' => 'Галерея',
+//);
 
 /*
  * components configs

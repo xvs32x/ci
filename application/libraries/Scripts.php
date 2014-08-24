@@ -19,7 +19,4 @@ class Scripts {
 		self::$scripts = array_merge(self::$scripts, $script);
 	}
 
-//	public static function reload($arr){
-//		self::$settings == $arr;
-//	}
 }
