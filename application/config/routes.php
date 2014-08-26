@@ -50,11 +50,13 @@ $route['admin/settings/edit/(:num)'] = "admin/setting_edit/$1";
 $route['admin/articles/edit/(:num)'] = "admin/article_edit/$1";
 $route['admin/categs/edit/(:num)'] = "admin/categ_edit/$1";
 $route['admin/gallery/edit/(:num)'] = "admin/album_edit/$1";
+$route['admin/meta/edit/(:num)'] = "admin/meta_edit/$1";
 
 $route['admin/settings/add'] = "admin/setting_edit/";
 $route['admin/articles/add'] = "admin/article_edit/";
 $route['admin/categs/add'] = "admin/categ_edit/";
 $route['admin/gallery/add'] = "admin/album_edit/";
+$route['admin/meta/add'] = "admin/meta_edit/";
 
 
 /* End of file routes.php */

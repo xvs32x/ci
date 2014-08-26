@@ -11,13 +11,11 @@ class Articles extends CI_Controller {
 		Breadcrumbs::set(Settings::get('site_url').'articles/', 'Статьи', 'glyphicon glyphicon-file');
 		$this->db->limit(Settings::get('articles_items_per_pages'), Settings::get('articles_items_per_pages')*($page-1));
 		$list = $this->articles_model->get_list() OR show_404();
-		$config = array(
+		$this->pager_model->get_pager(array(
 			'base_url' => Settings::get('site_url').'articles/',
 			'total_rows' => $this->db->count_all($this->articles_model->table),
 			'per_page' => Settings::get('articles_items_per_pages'),
-			'uri_segment' => 2,
-		);
-		$this->pagination->initialize($config);
+		));
 		$this->load->view('site/articles/index', array('list' => $list));
 	}
 
@@ -33,13 +31,12 @@ class Articles extends CI_Controller {
 			->count_all_results($this->articles_model->table);
 		$this->db->limit(Settings::get('articles_items_per_pages'), Settings::get('articles_items_per_pages')*($page-1));
 		$list = $this->articles_model->get_category_list(get_value($category, 'id')) OR show_404();
-		$config = array(
+		$this->pager_model->get_pager(array(
 			'base_url' => Settings::get('site_url').'articles/'.$category_alias.'/',
 			'total_rows' => $count,
 			'per_page' => Settings::get('articles_items_per_pages'),
 			'uri_segment' => 3,
-		);
-		$this->pagination->initialize($config);
+		));
 		$this->load->view('site/articles/index', array('list' => $list));
 	}
 

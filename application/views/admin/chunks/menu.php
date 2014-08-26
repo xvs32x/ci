@@ -41,6 +41,6 @@
 	</div>
 
 	<div class="col-xs-4 col-md-2">
-        <?= show_link(Settings::get('site_url').'admin/statistic/', 'Статистика', TRUE, $icon = 'glyphicon glyphicon-stats')?>
+        <?= show_link(Settings::get('site_url').'admin/meta/', 'Мета правила', TRUE, $icon = 'glyphicon glyphicon-search')?>
 	</div>
 </div>

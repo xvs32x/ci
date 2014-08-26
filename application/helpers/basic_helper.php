@@ -47,7 +47,7 @@ function show_message($message)
 				return '<div class="alert alert-success" role="alert">Отредактировано!</div>';
 				break;
 			default:
-				return '<div class="alert alert-warning" role="alert">' . $message . '</div>';
+				return '<div class="alert alert-danger" role="alert">' . $message . '</div>';
 				break;
 		}
 	} else {
@@ -56,7 +56,7 @@ function show_message($message)
 }
 
 /*
- * Функция выыводит дропдаун со значением по умолчанию
+ * Функция выводит дропдаун со значением по умолчанию
  * */
 function show_dropdown($name, $options, $selected = FALSE, $id = 'select')
 {
@@ -130,9 +130,6 @@ function show_link($link, $name, $admin = FALSE, $icon = FALSE)
     }
     return $result;
 }
-
-
-
 
 /*
  * Получение свойств объекта или массива

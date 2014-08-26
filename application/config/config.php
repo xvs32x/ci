@@ -364,23 +364,24 @@ $config['proxy_ips'] = '';
 $config['site_url'] = 'http://localhost/ci/';
 
 /*
+ * default metas
+ * */
+$config['site_meta_title'] = 'Сайт на NSV CMS';
+$config['site_meta_keywords'] = 'Сайт, Великий сайт, всея Руси';
+$config['site_meta_description'] = 'Прекраснейшая CMS для любого сайта!';
+
+/*
  * Admin password
  * */
 $config['admin_username'] = 'admin';
 $config['admin_password'] = 'admin';
 
-/*
- * Components
- * */
-//$config['components'] = array(
-//	'articles' => 'Статьи',
-//	'categs' => 'Категории',
-//	'gallery' => 'Галерея',
-//);
 
 /*
  * components configs
  * */
+
+//Gallery
 $config['gallery_originals'] = FCPATH.'uploads/gallery/originals/';
 $config['gallery_resizes'] = FCPATH.'uploads/gallery/resizes/';
 $config['gallery_thumbs'] = FCPATH.'uploads/gallery/thumbs/';

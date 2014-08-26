@@ -397,5 +397,78 @@ class Admin extends CI_Controller {
 		}
 	}
 
+	/*===============================================Meta Rules===================================================================*/
+	/*
+	 * Meta
+	 * Выводим список всех правил
+	 * */
+	public function meta($form_success = FALSE){
+		$list = $this->meta_model->get_list();
+		$this->load->view('admin/meta/index', array(
+			'form_success' => $form_success,
+			'list' => $list,
+		));
+	}
+
+	/*
+	 * Редактирование мета
+	 * Форма редактирования правила
+	 * */
+	public function meta_edit($id = FALSE)
+	{
+//		Scripts::set(Settings::get('editor_scripts'));
+		$this->load->helper(array('form', 'url'));
+		//Если форма отправлена
+		if ($this->input->post()) {
+			$this->load->library('form_validation');
+			$this->meta_model->validate();
+			//Валидация данных
+			if ($this->form_validation->run() == FALSE) {
+				$this->load->view('admin/meta/edit');
+			} else {
+				//Обновить или добавить данные?
+				if ($this->input->post('id')) {
+					$this->meta_model->update($this->input->post('id'));
+					redirect('/admin/meta/edited');
+				} else {
+					$this->meta_model->add_record();
+					redirect('/admin/meta/added');
+				}
+			}
+		} //Если параметр редактируется, а не создаётся
+		elseif ($id) {
+			$row = $this->meta_model->get_record((int)$id);
+			if (count($row)) {
+				foreach ($row as $key => $value) {
+					$_POST[$key] = $value;
+				}
+				$this->load->view('admin/meta/edit', array('edit' => TRUE));
+			} else {
+				redirect('/admin/meta/failed');
+			}
+		} //Форма добавления параметра
+		else {
+			$this->load->view('admin/meta/edit');
+		}
+	}
+
+	/*
+	 * Удаление выбранного параметра
+	 * */
+	public function meta_delete($id, $ajax = FALSE) {
+		if((int)$id){
+			$this->meta_model->delete($id);
+			if(!$ajax){
+				redirect('/admin/meta/success');
+			} else {
+				$this->output
+					->set_content_type('application/json')
+					->set_output(json_encode(array('id' => $id)));
+			}
+		} else {
+			redirect('/admin/meta/failed');
+		}
+	}
+
 }
 
