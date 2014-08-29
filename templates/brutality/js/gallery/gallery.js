@@ -21,18 +21,6 @@ $(function(){
 	}
 
 	/*
-	 * Шаблон вывода заголовка "Новые изображения"
-	 * */
-	function showNewsImagesTitle(){
-		return ''+
-			'<div class="col-sm-12">' +
-			'		<h3>Новые изображения <span class="label label-danger">Загруженные</span></h3>' +
-			'		<hr />' +
-			'</div>'
-	}
-
-
-	/*
 	 * Ajax удаление изображений из альбома
 	 * */
 	function deleteImageFromDom(id){
@@ -40,13 +28,28 @@ $(function(){
 			$this = $('#id_'+id);
 			$this.fadeOut(function(){
 				$this.remove();
-				count = $('#old_thumbs').find('.thumbnail').length;
-				$('.old_count').html(count);
 			});
 
 		}
 	}
 
+	/*
+	* Обновить сортировщик
+	* */
+	function show_sort(){
+		$('#thumbs').sortable({
+			cursor: 'move',
+			connectWith: ".sortable"
+		}).disableSelection();
+	}
+
+	/*
+	* Замена изображения в DOM
+	* */
+	function replaceImageInDom(data){
+		$this = $('#id_' + data.id);
+		$this.find('img').attr('src', data.image +'?time' + new Date().getTime());
+	}
 
 	/*
 	 * Ajax загрузка изображений в галерею
@@ -55,9 +58,6 @@ $(function(){
 		dataType: 'json',
 		done: function (e, data) {
 			$box = $('#thumbs');
-			if(!$box.html()){
-				$box.append(showNewsImagesTitle());
-			}
 			if(data.result.error){
 				BootstrapDialog.show({
 					type: BootstrapDialog.TYPE_DANGER,
@@ -71,6 +71,7 @@ $(function(){
 					}]
 				});
 			} else {
+				show_sort();
 				$box.append(showThumb(data.result));
 			}
 		}
@@ -127,30 +128,65 @@ $(function(){
 		$image = {};
 		BootstrapDialog.show({
 			title: 'Изменить миниатюру',
+			closeByBackdrop: false,
 			message: function(){
-				$image = $('<img data-image_id="'+id+'" src="'+image+'" width="100%" />');
+				$image = $('' +
+						'<div class="cropper">'+
+							'<div class="row">' +
+								'<div class="col-sm-7 col-xs-8 no-margin">' +
+									'<div style="width:320px; height: 200px;" class="cropper_preview"></div>' +
+								'</div>'+
+								'<div class="col-sm-5 col-xs-4 no-margin no-padding">' +
+									'<div style="width:160px; height: 100px;" class="cropper_preview"></div>' +
+								'</div>'+
+							'</div>'+
+
+							'<hr />' +
+							'<div class="cropper_img">' +
+								'<img data-image_id="'+id+'" src="'+image+'" width="100%" />' +
+							'</div>' +
+
+						'</div>');
+				$content = $('<div class="img-preview"></div>');
+				$content.append($image);
 				return $image;
 			},
 			buttons: [{
 				id: 'btn-1',
 				label: 'Сохранить изменения.',
-				action: function(){
+				autospin: true,
+				icon: 'glyphicon glyphicon-ok',
+				cssClass: 'btn-primary',
+				action: function(dialogRef){
+					dialogRef.enableButtons(false);
+					dialogRef.setClosable(false);
 					$.ajax({
 						url: url,
 						type: 'POST',
 						dataType: 'json',
+						data: {
+							id: id,
+							x: cropperData.x,
+							y: cropperData.y,
+							width: cropperData.width,
+							height: cropperData.height
+						},
 						success: function(data){
-							console.log(data);
+							replaceImageInDom(data);
+							setTimeout(function(){dialogRef.close()}, 500);
 						}
 					});
 				}
 			}],
 			onshown: function(){
 				$('.bootstrap-dialog-message').imagesLoaded( function() {
-					$image.cropper({
+					$image.find('.cropper_img img').cropper({
 						aspectRatio: 16 / 10,
 						multiple: true,
 						data: cropperData,
+						minWidth: 320,
+						minHeight: 200,
+						preview: ".cropper_preview",
 						done: function(data){
 							cropperData = data;
 						}

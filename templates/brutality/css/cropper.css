@@ -256,3 +256,8 @@
   opacity: 0;
   filter: alpha(opacity=0);
 }
+
+.cropper_preview {
+	overflow: hidden;
+	border: 3px solid #ccc;
+}

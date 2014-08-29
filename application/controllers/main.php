@@ -22,4 +22,5 @@ class Main extends CI_Controller {
 			'list' => $list,
 		));
 	}
+
 }

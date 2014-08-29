@@ -11,7 +11,7 @@
 <? if (count($favorites)): ?>
 	<div class="row">
 		<? foreach ($favorites as $article): ?>
-			<div class="col-md-<?= 12 / Settings::get('articles_favorites_count') ?>">
+			<div class="col-sm-6 col-xs-6 col-md-<?= 12 / Settings::get('articles_favorites_count') ?>">
 				<?= $this->load->view('site/chunks/articles/favorite', $article) ?>
 			</div>
 		<? endforeach ?>

@@ -11,9 +11,13 @@ class articles_model extends CI_Model {
 
 	/*
 	 * Список всех статей
+	 * Сразу получем с alias категории
 	 * */
 	public function get_list(){
-		return $this->db->get($this->table)
+		return $this->db->select('a.*, b.alias AS categ_alias')
+			->from($this->table.' a')
+			->join($this->categs_model->table.' b', 'b.id = a.category_id')
+			->get()
 			->result();
 	}
 
@@ -21,7 +25,11 @@ class articles_model extends CI_Model {
 	 * Получить записи текущей категории
 	 * */
 	public function get_category_list($id) {
-		return $this->db->get_where($this->table, array('category_id' => $id))
+		return $this->db->select('a.*, b.alias AS categ_alias')
+			->from($this->table.' a')
+			->join($this->categs_model->table.' b', 'b.id = a.category_id')
+			->where('a.category_id', $id)
+			->get()
 			->result();
 	}
 
@@ -34,10 +42,15 @@ class articles_model extends CI_Model {
 	}
 
 	/*
-	 * Получиить запись по id
+	 * Получиить запись
+	 * Сразу получем с alias категории
 	 * */
 	public function get_record($value, $mode = 'id') {
-		return $this->db->get_where($this->table, array($mode => $value))
+		return $this->db->select('a.*, b.alias AS categ_alias')
+			->from($this->table.' a')
+			->join($this->categs_model->table.' b', 'b.id = a.category_id')
+			->where('a.'.$mode, $value)
+			->get()
 			->row();
 	}
 

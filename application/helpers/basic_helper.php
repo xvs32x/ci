@@ -120,7 +120,7 @@ function show_link($link, $name, $admin = FALSE, $icon = FALSE)
     if($admin){
         $result = '
         <a href="'.$link.'" class="thumbnail color-blue text-center '.$active.'">
-			<span style="font-size: 100px;" class="'.$icon.'"></span>
+			<span style="font-size: 90px;" class="'.$icon.'"></span>
 			<ul class="list-group no-margin no-padding">
 				<li class="list-group-item">'.$name.'</li>
 			</ul>

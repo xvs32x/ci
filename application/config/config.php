@@ -422,8 +422,13 @@ $config['gallery_scripts'] = array(
 );
 /*Cropper*/
 $config['cropper_scripts'] = array(
-	'templates/brutality/js/cropper/cropper.js', //Cropper
-	'templates/brutality/js/cropper/images-loaded.js' //Cropper
+	'templates/brutality/js/cropper/cropper.js',
+	'templates/brutality/js/cropper/images-loaded.js'
+);
+/*Sortable*/
+$config['sortable_scripts'] = array(
+	'templates/brutality/js/sortable/jquery-ui.min.js',
+	'templates/brutality/js/sortable/sortable.js',
 );
 /* End of file config.php */
 /* Location: ./application/config/config.php */

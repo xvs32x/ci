@@ -73,9 +73,16 @@ class gallery_model extends CI_Model {
 	}
 
 	/*
-	 * Удалить запись из Mysql
+	 * Удалить альбом из Mysql
 	 * */
-	public function delete($id){
+	public function delete($id, $component){
+		$images = $this->get_component_images($id, $component);
+		foreach($images as $image) {
+			unlink($this->originals_path.get_value($image, 'image'));
+			unlink($this->resizes_path.get_value($image, 'image'));
+			unlink($this->thumbs_path.get_value($image, 'image'));
+		}
+		$this->db->delete($this->table_images, array('album_id' => $id));
 		return $this->db->delete($this->table, array('id' => (int)$id));
 	}
 
@@ -100,17 +107,9 @@ class gallery_model extends CI_Model {
 		$this->load->library('image_lib');
 		$r_image = $this->gallery_model->resize_image($data['file_name']);
 		if(!is_array($r_image)){
-			if(Settings::get('gallery_cropper')){
-				//todo место для кропера
-				$t_image = $this->gallery_model->create_thumb($r_image);
-				if(is_array($r_image)){
-					return $t_image;
-				}
-			} else {
-				$t_image = $this->gallery_model->create_thumb($r_image);
-				if(is_array($r_image)){
-					return $t_image;
-				}
+			$t_image = $this->gallery_model->create_thumb($r_image, $this->originals_path);
+			if(is_array($r_image)){
+				return $t_image;
 			}
 		} else {
 			return $r_image;
@@ -119,15 +118,39 @@ class gallery_model extends CI_Model {
 	}
 
 	/*
+	 * Обрезка изображения
+	 * */
+	public function cropp_image($image, $params){
+		$config = array(
+			'source_image' => $this->resizes_path.$image,
+			'x_axis' => $params['x'],
+			'y_axis' => $params['y'],
+			'width' => $params['width'],
+			'height' => $params['height'],
+			'new_image' => $this->thumbs_path.$image,
+			'maintain_ratio' => FALSE,
+		);
+		$this->load->library('image_lib');
+		$this->image_lib->initialize($config);
+		if(!$this->image_lib->crop()){
+			return array('error' => $this->image_lib->display_errors());
+		} else {
+			$image = $this->create_thumb($image, $this->thumbs_path);
+			return $image;
+		}
+	}
+
+	/*
 	 * Создание превью картинки
 	 * */
-	public function create_thumb($image){
+	public function create_thumb($image, $source){
 		$config = array(
 			'quality' => Settings::get('gallery_image_quality'),
-			'source_image'	=> $this->originals_path.$image,
+			'source_image'	=> $source.$image,
 			'width' => Settings::get('gallery_preview_width'),
 			'height' => Settings::get('gallery_preview_height'),
 			'new_image' => $this->thumbs_path.$image,
+			'maintain_ratio' => FALSE,
 		);
 		$this->image_lib->initialize($config);
 		if(!$this->image_lib->resize()){
@@ -160,9 +183,10 @@ class gallery_model extends CI_Model {
 	/*
 	 * Добавление изображения в БД
 	 * */
-	public function add_image($album_id, $image){
+	public function add_image($album_id, $component, $image){
 		$data = array(
 			'album_id' => (int)$album_id,
+			'component' => $component,
 			'image' => $image,
 		);
 		$this->db->insert($this->table_images, $data);
@@ -173,8 +197,8 @@ class gallery_model extends CI_Model {
 	/*
 	 * Вывод изображений альбома по его id
 	 * */
-	public function get_images_by_album($id){
-		return $this->db->get_where($this->table_images, array('album_id' => $id))
+	public function get_component_images($id, $component){
+		return $this->db->get_where($this->table_images, array('album_id' => $id, 'component' => $component))
 			->result();
 	}
 
