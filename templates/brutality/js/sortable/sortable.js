@@ -15,7 +15,9 @@ $(function(){
             $.ajax({
               url: $(this).data('url') + '/?' + $(this).sortable('serialize'),
               success: function(data){
-                    console.log(data);
+                  if(!data.result){
+					  alert('Позиции изображений не сохранены. Ошибка интернет соединения');
+                  }
               }
             });
         }
