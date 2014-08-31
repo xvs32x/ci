@@ -9,6 +9,15 @@ $(function(){
 	};
 	$('.sortable').sortable({
 		helper: fixHelper,
-		cursor: 'move'
+		cursor: 'move',
+        update: function(event, ui){
+            console.log($(this).data('url') + '/?' + $(this).sortable('serialize'));
+            $.ajax({
+              url: $(this).data('url') + '/?' + $(this).sortable('serialize'),
+              success: function(data){
+                    console.log(data);
+              }
+            });
+        }
 	}).disableSelection();
 });

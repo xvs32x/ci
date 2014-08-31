@@ -431,6 +431,16 @@ class Admin extends CI_Controller {
 			)));
 	}
 
+    /*
+     * Сортировка изображений
+     * */
+    public function sort_images($id, $component){
+        $result = $this->gallery_model->sort_images($this->input->get(), $id, $component);
+        $this->output
+            ->set_content_type('application/json')
+            ->set_output(json_encode(array('result' => $result)));
+    }
+
 
 	/*===============================================Meta Rules===================================================================*/
 	/*
