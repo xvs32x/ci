@@ -67,7 +67,8 @@ $route['admin/meta/add'] = "admin/meta_edit/";
 $route['admin/pages/add'] = "admin/page_edit/";
 
 $route['admin/gallery/images/(:num)/(:any)'] = "admin/album_images/$1/$2";
-
+$route['admin/pages/images/(:num)/(:any)'] = "admin/album_images/$1/$2";
+$route['admin/articles/images/(:num)/(:any)'] = "admin/album_images/$1/$2";
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

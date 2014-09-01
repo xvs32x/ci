@@ -198,7 +198,9 @@ class gallery_model extends CI_Model {
 	 * Вывод изображений альбома по его id
 	 * */
 	public function get_component_images($id, $component){
-		return $this->db->get_where($this->table_images, array('album_id' => $id, 'component' => $component))
+		return $this->db
+            ->order_by('position', 'asc')
+            ->get_where($this->table_images, array('album_id' => $id, 'component' => $component))
 			->result();
 	}
 
@@ -220,4 +222,20 @@ class gallery_model extends CI_Model {
 		unlink($this->thumbs_path.get_value($image, 'image'));
 		$this->db->delete($this->table_images, array('id' => (int)$id));
 	}
+
+    /*
+     * Сортировка изображений
+     * */
+    public function sort_images($images, $album_id, $component){
+        foreach($images['id'] as $position => $id){
+            $data[] = array(
+                'id' => $id,
+                'album_id' => $album_id,
+                'position' => $position,
+                'component' => $component,
+            );
+        }
+        $this->db->update_batch($this->table_images, $data, 'id');
+        return TRUE;
+    }
 }

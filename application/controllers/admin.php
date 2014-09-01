@@ -2,9 +2,15 @@
 
 class Admin extends CI_Controller {
 
+	function __construct()
+	{
+		parent::__construct();
+		Scripts::set(Settings::get('admin_scripts'));
+	}
+
+
 	public function index()
 	{
-//		debug($this->config);
 		$this->load->view('admin/index');
 	}
 
@@ -430,6 +436,16 @@ class Admin extends CI_Controller {
 				'image' => $this->gallery_model->thumbs_url.$image
 			)));
 	}
+
+    /*
+     * Сортировка изображений
+     * */
+    public function sort_images($id, $component){
+        $result = $this->gallery_model->sort_images($this->input->get(), $id, $component);
+        $this->output
+            ->set_content_type('application/json')
+            ->set_output(json_encode(array('result' => $result)));
+    }
 
 
 	/*===============================================Meta Rules===================================================================*/
