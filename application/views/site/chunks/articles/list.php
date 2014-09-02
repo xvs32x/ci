@@ -1,6 +1,13 @@
+<?
+if($image){
+	$image = $this->gallery_model->thumbs_url.get_value($image, 'image');
+} else {
+	$image = Settings::get('site_url').Settings::get('gallery_no_image');
+}
+?>
 <div class="row">
 	<div class="article">
-		<div class="col-sm-3"><a href="articles/<?= $categ_alias ?>/<?= $alias ?>"><img src="http://placehold.it/320x200" class="img-rounded img-responsive" alt=""></a></div>
+		<div class="col-sm-3"><a href="articles/<?= $categ_alias ?>/<?= $alias ?>"><img src="<?= $image?>" class="img-rounded img-responsive" alt=""></a></div>
 		<div class="col-sm-9">
 			<h3><a href="articles/<?= $categ_alias ?>/<?= $alias ?>"><?= $name ?></a></h3>
 			<p><?= cute_text($preview, 200) ?></p>

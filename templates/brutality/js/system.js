@@ -1,9 +1,11 @@
 $(function(){
 
 	/*
-	* Colorbox
-	* */
-	$('a.colorbox').click(function(){
-		
+	 * Fancybox
+	 * */
+	$('a.fancybox').fancybox({
+		openEffect	: 'elastic',
+		closeEffect	: 'elastic',
+		loop: false
 	});
  });

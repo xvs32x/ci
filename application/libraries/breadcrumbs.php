@@ -21,9 +21,6 @@ class Breadcrumbs {
 
 	/*
 	 * Добавление крошек
-	 * @link
-	 * @name
-	 * @icon
 	 * */
 	public static function set($link, $name, $icon = 'glyphicon glyphicon-arrow-right'){
 		self::$breadcrumbs[] = array(

@@ -6,7 +6,7 @@ class login_model extends CI_Model {
 	{
 		parent::__construct();
 		if(!substr_count($_SERVER['REQUEST_URI'], '/login') && substr_count($_SERVER['REQUEST_URI'], '/admin') && !$this->session->userdata('admin')) {
-			redirect('admin/login');
+			redirect(Settings::get('site_url').'admin/login');
 		}
 	}
 
@@ -29,7 +29,7 @@ class login_model extends CI_Model {
  	* Логин админа
  	* */
 	public function login_as_admin(){
-		return ($this->input->post('name') == $this->config->config['admin_username'] AND $this->input->post('password') == $this->config->config['admin_password']) ? TRUE : FALSE;
+		return ($this->input->post('name') == $this->config->config['admin_username'] AND md5($this->input->post('password')) == $this->config->config['admin_password']) ? TRUE : FALSE;
 	}
 
 

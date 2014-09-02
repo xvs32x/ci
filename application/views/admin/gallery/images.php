@@ -18,7 +18,7 @@
 			<? foreach ($images as $image): ?>
 				<div class="col-sm-6 col-md-4 col-xs-12 col-lg-3" id="id_<?= get_value($image, 'id') ?>">
 					<div class="thumbnail">
-						<a href="<?= $this->gallery_model->resizes_url . get_value($image, 'image') ?>" class="colorbox" rel="gallery">
+						<a href="<?= $this->gallery_model->resizes_url . get_value($image, 'image') ?>" class="colorbox fancybox" rel="gallery">
 							<img src="<?= $this->gallery_model->thumbs_url . get_value($image, 'image') ?>" alt="">
 						</a>
 						<div class="caption">

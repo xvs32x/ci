@@ -20,11 +20,9 @@
                                 <?if(get_value($item, 'favorite')):?>
                                     <span class="label label-primary">Избранная</span>
                                 <?endif?>
-                            </td>
-                            <td class="min-width">
-                                <?if(!get_value($item, 'publish')):?>
-                                    <span class="label label-danger">Неопубликована</span>
-                                <?endif?>
+								<?if(!get_value($item, 'publish')):?>
+									<span class="label label-danger">Неопубликована</span>
+								<?endif?>
                             </td>
                             <td class="min-width">
                                 <a class="btn btn-small btn-primary upload" href="admin/articles/images/<?= $item->id ?>/articles">

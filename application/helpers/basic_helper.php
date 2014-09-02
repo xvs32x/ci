@@ -141,5 +141,44 @@ function get_value($obj, $key) {
 	} else {
 		return FALSE;
 	}
-
 }
+
+/*
+* Одномерный массив по выбранному полю
+* */
+function array_from_key($array, $key = 'id'){
+	foreach($array as $item){
+		$result[] = get_value($item, $key);
+	}
+	return $result;
+}
+
+/*
+ * Меняем ключ массива
+ * Если флаг $ignore_level = TRUE - для каждого ключа берётся только одно значение(первое по порядку), остальные игнорируются
+ * */
+function key_from_value($array, $key = 'id', $ignore_level = TRUE){
+	foreach($array as $item){
+		if($ignore_level){
+			if(!isset($result[get_value($item, $key)])){
+				$result[get_value($item, $key)] = $item;
+			}
+		} else {
+			$result[get_value($item, $key)][] = $item;
+		}
+	}
+	return $result;
+}
+
+/*
+ * Принимает бесчисленное кол-во параметров, возвращает первый =! FALSE OR NULL
+ * */
+function value() {
+	$args = func_get_args();
+	foreach ($args as $val) {
+		if ($val) return $val;
+		$result = $val;
+	}
+	return $result;
+}
+

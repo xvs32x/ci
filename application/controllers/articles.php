@@ -10,7 +10,7 @@ class Articles extends CI_Controller {
 	public function index($page = 1){
 		Breadcrumbs::set(Settings::get('site_url').'articles/', 'Статьи', 'glyphicon glyphicon-file');
 		$this->db->limit(Settings::get('articles_items_per_pages'), Settings::get('articles_items_per_pages')*($page-1));
-		$list = $this->articles_model->get_list() OR show_404();
+		$list = $this->articles_model->get_list_width_images() OR show_404();
 		$this->pager_model->get_pager(array(
 			'base_url' => Settings::get('site_url').'articles/',
 			'total_rows' => $this->db->count_all($this->articles_model->table),
@@ -46,15 +46,15 @@ class Articles extends CI_Controller {
 	public function view($alias = FALSE) {
 		!$alias AND redirect(Settings::get('site_url').'articles/');
 		$article = $this->articles_model->get_record($alias, 'alias');
-		$category = $this->categs_model->get_record(get_value($article, 'category_id'));
+		$images = $this->gallery_model->get_component_images(get_value($article, 'id'), 'articles');
 		//Хлебные крошки
 		Breadcrumbs::set(Settings::get('site_url').'articles/', 'Статьи', 'glyphicon glyphicon-file');
-		Breadcrumbs::set(Settings::get('site_url').'articles/'.get_value($category, 'alias'), get_value($category, 'name'), 'glyphicon glyphicon-th');
+		Breadcrumbs::set(Settings::get('site_url').'articles/'.get_value($article, 'category_alias'), get_value($article, 'categ_name'), 'glyphicon glyphicon-th');
 		Breadcrumbs::set(get_value($article, 'alias'), get_value($article, 'name'), 'glyphicon glyphicon-arrow-right');
 		//Шаблон
-		$this->load->view('site/articles/item', $article);
-
-
-
+		$this->load->view('site/articles/item', array(
+			'article' => $article,
+			'images' => $images,
+		));
 	}
 }

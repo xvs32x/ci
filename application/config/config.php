@@ -373,8 +373,8 @@ $config['site_meta_description'] = 'Прекраснейшая CMS для люб
 /*
  * Admin password
  * */
-$config['admin_username'] = 'admin';
-$config['admin_password'] = 'admin';
+$config['admin_username'] = 'gavrila';
+$config['admin_password'] = '4a606a2cc0e5bac3b4238cd024f89ef2';
 
 
 /*
@@ -395,8 +395,12 @@ $config['core_scripts'] = array(
 	'templates/brutality/js/jquery-1.11.1.min.js',
 	'templates/brutality/js/bootstrap.min.js',
 	'templates/brutality/js/bootstrap-dialog.min.js', //Dialogs
-	'templates/brutality/js/colorbox/jquery.colorbox-min.js', //Colorbox
-	'templates/brutality/js/colorbox/jquery.colorbox-ru.js',
+//	'templates/brutality/js/colorbox/jquery.colorbox-min.js', //Colorbox
+//	'templates/brutality/js/colorbox/jquery.colorbox-ru.js',
+	'templates/brutality/js/mouse_wheel.js',
+	'templates/brutality/js/fancy/jquery.fancybox.pack.js', //Fancybox
+
+
 );
 $config['system_scripts'] = array(
 	'templates/brutality/js/system.js', //System
@@ -427,6 +431,11 @@ $config['cropper_scripts'] = array(
 );
 /*Sortable*/
 $config['sortable_scripts'] = array(
+	'templates/brutality/js/sortable/jquery-ui.min.js',
+	'templates/brutality/js/sortable/sortable.js',
+);
+/*Fancybox*/
+$config['fancy_scripts'] = array(
 	'templates/brutality/js/sortable/jquery-ui.min.js',
 	'templates/brutality/js/sortable/sortable.js',
 );

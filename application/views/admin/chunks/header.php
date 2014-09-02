@@ -15,7 +15,8 @@
 	<link rel="stylesheet" href="templates/brutality/css/bootstrap.min.css">
 	<link rel="stylesheet" href="templates/brutality/css/jquery.fileupload.css">
 	<link rel="stylesheet" href="templates/brutality/css/bootstrap-dialog.min.css">
-	<link rel="stylesheet" href="templates/brutality/css/colorbox.css">
+<!--	<link rel="stylesheet" href="templates/brutality/css/colorbox.css">-->
+	<link rel="stylesheet" href="templates/brutality/css/jquery.fancybox.css">
 	<link rel="stylesheet" href="templates/brutality/css/cropper.css">
 	<link rel="stylesheet" href="templates/brutality/css/system.css">
 </head>

@@ -1,5 +1,4 @@
 <?= $this->load->view('admin/chunks/header')?>
-<?//debug($this->config->config['admin_username'])?>
 <div class="container">
 	<div class="row content">
 		<?= form_open('admin/login', array('role' => 'form', 'class' => 'form-signin'))?>

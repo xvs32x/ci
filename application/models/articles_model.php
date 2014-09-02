@@ -14,31 +14,65 @@ class articles_model extends CI_Model {
 	 * Сразу получем с alias категории
 	 * */
 	public function get_list(){
+		//Статьи
 		return $this->db->select('a.*, b.alias AS categ_alias')
 			->from($this->table.' a')
 			->join($this->categs_model->table.' b', 'b.id = a.category_id')
 			->get()
 			->result();
+	}
+
+	public function get_list_width_images(){
+		$articles = $this->get_list();
+		$idx = array_from_key($articles);
+		//Изображения для статей
+		$images = key_from_value($this->gallery_model->get_component_images_by_albums($idx, 'articles'), 'album_id');
+		return array(
+			'images' => $images,
+			'articles' => $articles,
+		);
 	}
 
 	/*
 	 * Получить записи текущей категории
 	 * */
 	public function get_category_list($id) {
-		return $this->db->select('a.*, b.alias AS categ_alias')
+		//Статьи
+		$articles = $this->db->select('a.*, b.alias AS categ_alias')
 			->from($this->table.' a')
 			->join($this->categs_model->table.' b', 'b.id = a.category_id')
 			->where('a.category_id', $id)
 			->get()
 			->result();
+		$idx = array_from_key($articles);
+		//Изображения для статей
+		$images = key_from_value($this->gallery_model->get_component_images_by_albums($idx, 'articles'), 'album_id');
+		return array(
+			'images' => $images,
+			'articles' => $articles,
+		);
 	}
 
 	/*
 	 * Получить записи favorites
 	 * */
 	public function get_favorites($count = 20) {
-		return $this->db->get_where($this->table, array('favorite' => 1, 'publish' => 1), $count)
+		//Статьи
+		$articles = $this->db->select('a.*, b.alias AS categ_alias')
+			->from($this->table.' a')
+			->join($this->categs_model->table.' b', 'b.id = a.category_id')
+			->where('a.favorite', 1)
+			->where('a.publish', 1)
+			->limit($count)
+			->get()
 			->result();
+		$idx = array_from_key($articles);
+		//Изображения для статей
+		$images = key_from_value($this->gallery_model->get_component_images_by_albums($idx, 'articles'), 'album_id');
+		return array(
+			'images' => $images,
+			'articles' => $articles,
+		);
 	}
 
 	/*
@@ -46,7 +80,7 @@ class articles_model extends CI_Model {
 	 * Сразу получем с alias категории
 	 * */
 	public function get_record($value, $mode = 'id') {
-		return $this->db->select('a.*, b.alias AS categ_alias')
+		return $this->db->select('a.*, b.alias AS categ_alias, b.name AS categ_name')
 			->from($this->table.' a')
 			->join($this->categs_model->table.' b', 'b.id = a.category_id')
 			->where('a.'.$mode, $value)

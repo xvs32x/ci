@@ -8,7 +8,9 @@ class Pages extends CI_Controller {
 	 * Вывод одной страницы
 	 * */
 	public function view($alias) {
-		$page = $this->pages_model->get_record($alias, 'alias');
+		if(!$page = $this->pages_model->get_record($alias, 'alias')){
+			show_404();
+		};
 		//Хлебные крошки
 		Breadcrumbs::set(get_value($page, 'alias'), get_value($page, 'name'), 'glyphicon glyphicon-arrow-right');
 		Meta::set(array(

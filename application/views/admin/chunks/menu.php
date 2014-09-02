@@ -24,23 +24,22 @@
 </div>
 <div class="container">
 <div class="row admin_menu">
-	<div class="col-xs-4 col-md-2">
+	<div class="col-xs-6 col-lg-2 col-md-4">
         <?= show_link(Settings::get('site_url').'admin/settings/', 'Настройки', TRUE, $icon = 'glyphicon glyphicon-cog')?>
 	</div>
-	<div class="col-xs-4 col-md-2">
+	<div class="col-xs-6 col-lg-2 col-md-4">
         <?= show_link(Settings::get('site_url').'admin/categs/', 'Категории', TRUE, $icon = 'glyphicon glyphicon-th')?>
 	</div>
-	<div class="col-xs-4 col-md-2">
+	<div class="col-xs-6 col-lg-2 col-md-4">
         <?= show_link(Settings::get('site_url').'admin/articles/', 'Статьи', TRUE, $icon = 'glyphicon glyphicon-file')?>
 	</div>
-    <div class="col-xs-4 col-md-2">
+    <div class="col-xs-6 col-lg-2 col-md-4">
         <?= show_link(Settings::get('site_url').'admin/gallery/', 'Галерея', TRUE, $icon = 'glyphicon glyphicon-camera')?>
     </div>
-	<div class="col-xs-4 col-md-2">
+	<div class="col-xs-6 col-lg-2 col-md-4">
         <?= show_link(Settings::get('site_url').'admin/pages/', 'Страницы', TRUE, $icon = 'glyphicon glyphicon-book')?>
 	</div>
-
-	<div class="col-xs-4 col-md-2">
-        <?= show_link(Settings::get('site_url').'admin/meta/', 'Мета правила', TRUE, $icon = 'glyphicon glyphicon-search')?>
+	<div class="col-xs-6 col-lg-2 col-md-4">
+        <?= show_link(Settings::get('site_url').'admin/meta/', 'Мета', TRUE, $icon = 'glyphicon glyphicon-search')?>
 	</div>
 </div>

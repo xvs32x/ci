@@ -43,10 +43,10 @@ $route['404_override'] = '';
 
 /*articles routing*/
 $route['articles/view/(:any)'] = "articles/view/$1";
-$route['articles/(:num)'] = "articles/index/$1/";
-$route['articles/(:any)/(:any)'] = "articles/view/$2/";
-$route['articles/(:any)'] = "articles/with_categs/$1/1/";
-$route['articles/'] = "articles/index/";
+$route['articles/(:num)'] = "articles/index/$1";
+$route['articles/(:any)/(:any)'] = "articles/view/$2";
+$route['articles/(:any)'] = "articles/with_categs/$1/1";
+$route['articles/'] = "articles/index";
 
 /*static pages*/
 $route['page/(:any)'] = "pages/view/$1";
@@ -59,16 +59,22 @@ $route['admin/gallery/edit/(:num)'] = "admin/album_edit/$1";
 $route['admin/meta/edit/(:num)'] = "admin/meta_edit/$1";
 $route['admin/pages/edit/(:num)'] = "admin/page_edit/$1";
 
-$route['admin/settings/add'] = "admin/setting_edit/";
-$route['admin/articles/add'] = "admin/article_edit/";
-$route['admin/categs/add'] = "admin/categ_edit/";
-$route['admin/gallery/add'] = "admin/album_edit/";
-$route['admin/meta/add'] = "admin/meta_edit/";
-$route['admin/pages/add'] = "admin/page_edit/";
+$route['admin/settings/add'] = "admin/setting_edit";
+$route['admin/articles/add'] = "admin/article_edit";
+$route['admin/categs/add'] = "admin/categ_edit";
+$route['admin/gallery/add'] = "admin/album_edit";
+$route['admin/meta/add'] = "admin/meta_edit";
+$route['admin/pages/add'] = "admin/page_edit";
 
 $route['admin/gallery/images/(:num)/(:any)'] = "admin/album_images/$1/$2";
 $route['admin/pages/images/(:num)/(:any)'] = "admin/album_images/$1/$2";
 $route['admin/articles/images/(:num)/(:any)'] = "admin/album_images/$1/$2";
+
+$route['admin'] = "admin";
+$route['articles'] = "articles";
+$route['admin/(:any)'] = "admin/$1";
+$route['(:any)'] = "pages/view/$1";
+
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */

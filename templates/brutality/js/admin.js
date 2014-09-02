@@ -34,14 +34,28 @@ $(function(){
 		return false;
 	});
 
+//	/*
+//	 * Colorbox
+//	 * */
+//	$(document).on('click', 'a.colorbox', function(){
+//		$.colorbox({
+//			'href': $(this).attr('href')
+//		});
+//		return false;
+//	});
+
 	/*
-	 * Colorbox
+	 * Fancybox
 	 * */
-	$(document).on('click', 'a.colorbox', function(){
-		$.colorbox({
-			'href': $(this).attr('href')
+	$(document).on('click', 'a.fancybox', function(){
+		$.fancybox({
+			href: $(this).attr('href'),
+			openEffect	: 'elastic',
+			closeEffect	: 'elastic',
+			'loop' : false
 		});
 		return false;
 	});
+
 
 });

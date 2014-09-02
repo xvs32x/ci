@@ -13,7 +13,7 @@
 			<ul class="nav navbar-nav">
 				<?= show_link(Settings::get('site_url'), 'Главная') ?>
 				<?= show_link(Settings::get('site_url').'articles/', 'Статьи') ?>
-				<?= show_link(Settings::get('site_url').'page/o_sayte/', 'О сайте')?>
+				<?= show_link(Settings::get('site_url').'o_sayte/', 'О сайте')?>
 <!--				<li><a href="#">Link</a></li>-->
 <!--				<li class="dropdown">-->
 <!--					<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>-->

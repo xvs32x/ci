@@ -1,7 +1,239 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6413d0d5-1341-44f4-82c3-9454e184e4ec" name="Default" comment="" />
+    <list default="true" id="6413d0d5-1341-44f4-82c3-9454e184e4ec" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/brutality/css/images/no-image.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/site/chunks/gallery/image.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/site/chunks/gallery/images.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/brutality/js/mouse_wheel.js" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\.idea\codeStyleSettings.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\.idea\watcherTasks.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\ci (1).sql" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\ci(1).sql" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\uploads\gallery\originals\1304412310_F0EEE7EEE2EEE520E4E5F0E5E2EE1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\uploads\gallery\originals\221099-1366x76811.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\uploads\gallery\originals\580834-1920x1080.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\uploads\gallery\originals\587596-1920x1200.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\uploads\gallery\originals\647213-1920x1080.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\uploads\gallery\originals\7653261.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\uploads\gallery\originals\artleo.com-39574___.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\uploads\gallery\resizes\1304412310_F0EEE7EEE2EEE520E4E5F0E5E2EE1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\uploads\gallery\resizes\221099-1366x76811.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\uploads\gallery\resizes\580834-1920x1080.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\uploads\gallery\resizes\587596-1920x1200.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\uploads\gallery\resizes\647213-1920x1080.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\uploads\gallery\resizes\7653261.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\uploads\gallery\resizes\artleo.com-39574___.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\uploads\gallery\thumbs\1304412310_F0EEE7EEE2EEE520E4E5F0E5E2EE1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\uploads\gallery\thumbs\221099-1366x76811.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\uploads\gallery\thumbs\580834-1920x1080.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\uploads\gallery\thumbs\587596-1920x1200.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\uploads\gallery\thumbs\647213-1920x1080.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\uploads\gallery\thumbs\7653261.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\uploads\gallery\thumbs\artleo.com-39574___.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\changelog.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\database\active_record.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\database\caching.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\database\call_function.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\database\configuration.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\database\connecting.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\database\examples.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\database\fields.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\database\forge.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\database\helpers.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\database\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\database\queries.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\database\results.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\database\table_data.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\database\transactions.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\database\utilities.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\doc_style\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\doc_style\template.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\general\alternative_php.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\general\ancillary_classes.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\general\autoloader.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\general\caching.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\general\cli.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\general\common_functions.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\general\controllers.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\general\core_classes.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\general\creating_drivers.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\general\creating_libraries.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\general\credits.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\general\drivers.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\general\environments.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\general\errors.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\general\helpers.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\general\hooks.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\general\libraries.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\general\managing_apps.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\general\models.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\general\profiling.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\general\quick_reference.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\general\requirements.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\general\reserved_names.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\general\routing.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\general\security.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\general\styleguide.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\general\urls.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\general\views.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\helpers\array_helper.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\helpers\captcha_helper.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\helpers\cookie_helper.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\helpers\date_helper.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\helpers\directory_helper.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\helpers\download_helper.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\helpers\email_helper.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\helpers\file_helper.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\helpers\form_helper.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\helpers\html_helper.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\helpers\inflector_helper.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\helpers\language_helper.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\helpers\number_helper.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\helpers\path_helper.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\helpers\security_helper.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\helpers\smiley_helper.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\helpers\string_helper.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\helpers\text_helper.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\helpers\typography_helper.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\helpers\url_helper.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\helpers\xml_helper.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\images\appflowchart.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\images\arrow.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\images\ci_logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\images\ci_logo_flame.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\images\ci_quick_ref.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\images\codeigniter_1.7.1_helper_reference.pdf" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\images\codeigniter_1.7.1_helper_reference.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\images\codeigniter_1.7.1_library_reference.pdf" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\images\codeigniter_1.7.1_library_reference.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\images\file.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\images\folder.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\images\nav_bg_darker.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\images\nav_separator_darker.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\images\nav_toggle_darker.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\images\reactor-bullet.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\images\smile.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\images\transparent.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\installation\downloads.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\installation\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\installation\troubleshooting.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\installation\upgrade_120.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\installation\upgrade_130.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\installation\upgrade_131.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\installation\upgrade_132.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\installation\upgrade_133.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\installation\upgrade_140.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\installation\upgrade_141.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\installation\upgrade_150.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\installation\upgrade_152.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\installation\upgrade_153.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\installation\upgrade_154.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\installation\upgrade_160.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\installation\upgrade_161.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\installation\upgrade_162.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\installation\upgrade_163.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\installation\upgrade_170.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\installation\upgrade_171.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\installation\upgrade_172.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\installation\upgrade_200.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\installation\upgrade_201.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\installation\upgrade_202.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\installation\upgrade_203.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\installation\upgrade_210.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\installation\upgrade_211.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\installation\upgrade_212.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\installation\upgrade_213.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\installation\upgrade_214.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\installation\upgrade_220.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\installation\upgrade_b11.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\installation\upgrading.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\libraries\benchmark.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\libraries\caching.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\libraries\calendar.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\libraries\cart.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\libraries\config.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\libraries\email.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\libraries\encryption.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\libraries\file_uploading.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\libraries\form_validation.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\libraries\ftp.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\libraries\image_lib.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\libraries\input.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\libraries\javascript.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\libraries\language.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\libraries\loader.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\libraries\migration.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\libraries\output.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\libraries\pagination.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\libraries\parser.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\libraries\security.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\libraries\sessions.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\libraries\table.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\libraries\trackback.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\libraries\typography.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\libraries\unit_testing.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\libraries\uri.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\libraries\user_agent.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\libraries\xmlrpc.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\libraries\zip.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\license.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\nav\hacks.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\nav\moo.fx.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\nav\nav.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\nav\prototype.lite.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\nav\user_guide_menu.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\overview\appflow.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\overview\at_a_glance.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\overview\cheatsheets.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\overview\features.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\overview\getting_started.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\overview\goals.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\overview\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\overview\mvc.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\toc.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\tutorial\conclusion.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\tutorial\create_news_items.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\tutorial\hard_coded_pages.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\tutorial\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\tutorial\news_section.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\tutorial\static_pages.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\server\htdocs\ci\user_guide\userguide.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uploads/gallery/thumbs/765326.jpg" afterPath="$PROJECT_DIR$/uploads/gallery/thumbs/765326.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/libraries/Breadcrumbs.php" afterPath="$PROJECT_DIR$/application/libraries/Breadcrumbs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/brutality/js/admin.js" afterPath="$PROJECT_DIR$/templates/brutality/js/admin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/admin.php" afterPath="$PROJECT_DIR$/application/controllers/admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/articles.php" afterPath="$PROJECT_DIR$/application/controllers/articles.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/articles_model.php" afterPath="$PROJECT_DIR$/application/models/articles_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/helpers/basic_helper.php" afterPath="$PROJECT_DIR$/application/helpers/basic_helper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/config.php" afterPath="$PROJECT_DIR$/application/config/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/site/chunks/articles/favorite.php" afterPath="$PROJECT_DIR$/application/views/site/chunks/articles/favorite.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/chunks/footer.php" afterPath="$PROJECT_DIR$/application/views/admin/chunks/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/site/chunks/footer.php" afterPath="$PROJECT_DIR$/application/views/site/chunks/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/brutality/js/gallery/gallery.js" afterPath="$PROJECT_DIR$/templates/brutality/js/gallery/gallery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/gallery_model.php" afterPath="$PROJECT_DIR$/application/models/gallery_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/chunks/header.php" afterPath="$PROJECT_DIR$/application/views/admin/chunks/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/site/chunks/header.php" afterPath="$PROJECT_DIR$/application/views/site/chunks/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/gallery/images.php" afterPath="$PROJECT_DIR$/application/views/admin/gallery/images.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/articles/index.php" afterPath="$PROJECT_DIR$/application/views/admin/articles/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/login/index.php" afterPath="$PROJECT_DIR$/application/views/admin/login/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/site/index.php" afterPath="$PROJECT_DIR$/application/views/site/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/site/articles/index.php" afterPath="$PROJECT_DIR$/application/views/site/articles/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/site/articles/item.php" afterPath="$PROJECT_DIR$/application/views/site/articles/item.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/site/chunks/articles/list.php" afterPath="$PROJECT_DIR$/application/views/site/chunks/articles/list.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/login_model.php" afterPath="$PROJECT_DIR$/application/models/login_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/chunks/menu.php" afterPath="$PROJECT_DIR$/application/views/admin/chunks/menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/site/chunks/menu.php" afterPath="$PROJECT_DIR$/application/views/site/chunks/menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/pages.php" afterPath="$PROJECT_DIR$/application/controllers/pages.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/routes.php" afterPath="$PROJECT_DIR$/application/config/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/brutality/js/sortable/sortable.js" afterPath="$PROJECT_DIR$/templates/brutality/js/sortable/sortable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/brutality/js/system.js" afterPath="$PROJECT_DIR$/templates/brutality/js/system.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/application/libraries/Breadcrumbs.php" afterPath="$PROJECT_DIR$/application/libraries/Breadcrumbs.php" />
+    </list>
     <ignored path="ci.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,46 +255,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="admin.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/admin.php">
+      <file leaf-file-name="login_model.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/login_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="340" column="48" selection-start="9239" selection-end="9239" vertical-scroll-proportion="0.0" vertical-offset="5523" max-vertical-offset="10285">
+            <state line="31" column="125" selection-start="829" selection-end="829" vertical-scroll-proportion="-20.26923" vertical-offset="0" max-vertical-offset="714">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sortable.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/brutality/js/sortable/sortable.js">
+      <file leaf-file-name="articles.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/articles.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="3" selection-start="168" selection-end="694" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="510">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="images.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/admin/gallery/images.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="22" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1173">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/admin/gallery/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="129" selection-start="903" selection-end="903" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="646">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gallery_model.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/models/gallery_model.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="126" column="32" selection-start="3728" selection-end="3728" vertical-scroll-proportion="0.0" vertical-offset="2142" max-vertical-offset="4182">
+            <state line="47" column="70" selection-start="2165" selection-end="2165" vertical-scroll-proportion="-20.807692" vertical-offset="258" max-vertical-offset="1105">
               <folding />
             </state>
           </provider>
@@ -71,46 +276,70 @@
       <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/config/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="430" column="45" selection-start="14824" selection-end="14824" vertical-scroll-proportion="0.0" vertical-offset="6548" max-vertical-offset="7497">
+            <state line="376" column="63" selection-start="13156" selection-end="13156" vertical-scroll-proportion="-5.769231" vertical-offset="6242" max-vertical-offset="7650">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/config/routes.php">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/admin/login/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="0" selection-start="2222" selection-end="2222" vertical-scroll-proportion="0.0" vertical-offset="479" max-vertical-offset="1343">
+            <state line="0" column="46" selection-start="46" selection-end="46" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="340">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/admin/chunks/menu.php">
+      <file leaf-file-name="list.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/site/chunks/articles/list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="33" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="867">
+            <state line="8" column="25" selection-start="211" selection-end="211" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="408">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gallery.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/brutality/js/gallery/gallery.js">
+      <file leaf-file-name="item.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/site/articles/item.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="28" selection-start="1889" selection-end="1889" vertical-scroll-proportion="1.3283063" vertical-offset="96" max-vertical-offset="3485">
-              <folding>
-                <marker date="1409550059006" expanded="false" signature="3203:3230" placeholder="..." />
-                <marker date="1409550059006" expanded="false" signature="3371:3398" placeholder="..." />
-              </folding>
+            <state line="15" column="18" selection-start="483" selection-end="483" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="425">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="basic_helper.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/helpers/basic_helper.php">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/site/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="122" column="37" selection-start="2827" selection-end="2827" vertical-scroll-proportion="0.0" vertical-offset="1630" max-vertical-offset="2550">
+            <state line="28" column="0" selection-start="900" selection-end="900" vertical-scroll-proportion="0.56198347" vertical-offset="0" max-vertical-offset="847">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="system.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/brutality/js/system.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="19" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/site/chunks/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="78" selection-start="533" selection-end="533" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="357">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/brutality/js/admin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="54" column="26" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.0" vertical-offset="232" max-vertical-offset="1122">
               <folding />
             </state>
           </provider>
@@ -123,60 +352,63 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/system/language/english/upload_lang.php" />
-        <option value="$PROJECT_DIR$/application/models/categs_model.php" />
-        <option value="$PROJECT_DIR$/application/config/pagination.php" />
-        <option value="$PROJECT_DIR$/templates/brutality/js/cropper/images-loaded.js" />
-        <option value="$PROJECT_DIR$/templates/brutality/js/url/jquery.friendly_url.min.js" />
-        <option value="$PROJECT_DIR$/application/libraries/breadcrumbs.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/categs/index.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/articles/index.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/settings/index.php" />
-        <option value="$PROJECT_DIR$/application/views/site/chunks/slider/index.php" />
-        <option value="$PROJECT_DIR$/application/libraries/Scripts.php" />
-        <option value="$PROJECT_DIR$/application/libraries/Settings.php" />
         <option value="$PROJECT_DIR$/application/models/pagination_model.php" />
         <option value="$PROJECT_DIR$/application/models/pager_model.php" />
-        <option value="$PROJECT_DIR$/application/views/site/chunks/articles/favorite.php" />
         <option value="$PROJECT_DIR$/application/views/admin/meta/edit.php" />
         <option value="$PROJECT_DIR$/application/models/meta_model.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/chunks/header.php" />
-        <option value="$PROJECT_DIR$/application/views/site/chunks/header.php" />
         <option value="$PROJECT_DIR$/application/libraries/Meta.php" />
         <option value="$PROJECT_DIR$/application/views/site/chunks/meta/index.php" />
         <option value="$PROJECT_DIR$/application/views/admin/meta/index.php" />
-        <option value="$PROJECT_DIR$/application/models/articles_model.php" />
-        <option value="$PROJECT_DIR$/application/views/site/chunks/articles/list.php" />
         <option value="$PROJECT_DIR$/application/config/autoload.php" />
         <option value="$PROJECT_DIR$/application/models/pages_model.php" />
         <option value="$PROJECT_DIR$/application/views/admin/pages/index.php" />
-        <option value="$PROJECT_DIR$/application/controllers/main.php" />
-        <option value="$PROJECT_DIR$/application/controllers/articles.php" />
         <option value="$PROJECT_DIR$/application/views/site/pages/item.php" />
-        <option value="$PROJECT_DIR$/application/controllers/pages.php" />
-        <option value="$PROJECT_DIR$/application/views/site/index.php" />
-        <option value="$PROJECT_DIR$/application/views/site/chunks/footer.php" />
         <option value="$PROJECT_DIR$/templates/brutality/css/style.css" />
         <option value="$PROJECT_DIR$/templates/brutality/css/cropper.css" />
         <option value="$PROJECT_DIR$/templates/brutality/js/cropper/cropper.js" />
-        <option value="$PROJECT_DIR$/application/views/site/chunks/menu.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/chunks/menu.php" />
-        <option value="$PROJECT_DIR$/application/helpers/basic_helper.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/chunks/footer.php" />
         <option value="$PROJECT_DIR$/application/views/admin/pages/edit.php" />
         <option value="$PROJECT_DIR$/application/views/admin/gallery/edit.php" />
         <option value="$PROJECT_DIR$/templates/brutality/css/system.css" />
-        <option value="$PROJECT_DIR$/application/config/routes.php" />
         <option value="$PROJECT_DIR$/application/views/admin/gallery/index.php" />
-        <option value="$PROJECT_DIR$/application/models/gallery_model.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/articles/index.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/chunks/footer.php" />
+        <option value="$PROJECT_DIR$/application/controllers/pages.php" />
+        <option value="$PROJECT_DIR$/application/config/routes.php" />
+        <option value="$PROJECT_DIR$/application/views/site/chunks/menu.php" />
         <option value="$PROJECT_DIR$/application/controllers/admin.php" />
-        <option value="$PROJECT_DIR$/application/config/config.php" />
+        <option value="$PROJECT_DIR$/application/views/site/chunks/footer.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/chunks/menu.php" />
+        <option value="$PROJECT_DIR$/application/controllers/main.php" />
         <option value="$PROJECT_DIR$/templates/brutality/js/sortable/sortable.js" />
+        <option value="$PROJECT_DIR$/application/helpers/basic_helper.php" />
+        <option value="$PROJECT_DIR$/application/views/site/chunks/gallery/image.php" />
+        <option value="$PROJECT_DIR$/application/views/site/chunks/articles/list.php" />
+        <option value="$PROJECT_DIR$/application/views/site/articles/index.php" />
+        <option value="$PROJECT_DIR$/application/libraries/Breadcrumbs.php" />
         <option value="$PROJECT_DIR$/application/views/admin/gallery/images.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/chunks/header.php" />
+        <option value="$PROJECT_DIR$/templates/brutality/css/jquery.fancybox.css" />
         <option value="$PROJECT_DIR$/templates/brutality/js/gallery/gallery.js" />
+        <option value="$PROJECT_DIR$/templates/brutality/js/mousweel.js" />
+        <option value="$PROJECT_DIR$/application/views/site/chunks/articles/favorite.php" />
+        <option value="$PROJECT_DIR$/application/models/articles_model.php" />
+        <option value="$PROJECT_DIR$/application/models/gallery_model.php" />
+        <option value="$PROJECT_DIR$/application/views/site/chunks/gallery/images.php" />
+        <option value="$PROJECT_DIR$/application/views/site/articles/item.php" />
+        <option value="$PROJECT_DIR$/application/views/site/chunks/header.php" />
+        <option value="$PROJECT_DIR$/application/controllers/articles.php" />
+        <option value="$PROJECT_DIR$/templates/brutality/js/admin.js" />
+        <option value="$PROJECT_DIR$/templates/brutality/js/system.js" />
+        <option value="$PROJECT_DIR$/application/config/config.php" />
+        <option value="$PROJECT_DIR$/application/views/admin/login/index.php" />
+        <option value="$PROJECT_DIR$/application/models/login_model.php" />
+        <option value="$PROJECT_DIR$/application/views/site/index.php" />
       </list>
     </option>
   </component>
@@ -231,6 +463,432 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="brutality" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="brutality" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="brutality" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="brutality" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chunks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chunks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gallery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chunks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="articles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="articles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="login" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gallery" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chunks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ci" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -257,10 +915,10 @@
       <recent name="D:\server\htdocs\ci\application\views\admin\articles" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\server\htdocs\ci\templates\brutality\css\images" />
       <recent name="D:\server\htdocs\ci\templates\brutality\js\sortable" />
       <recent name="D:\server\htdocs\ci\templates\brutality\css" />
       <recent name="D:\server\htdocs\ci\templates\brutality\js\cropper" />
-      <recent name="D:\server\htdocs\ci\templates\brutality\css\images" />
       <recent name="D:\server\htdocs\ci\templates\brutality\js\colorbox" />
     </key>
   </component>
@@ -307,28 +965,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21778488" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2284345" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32963374" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -347,9 +1005,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2683706" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -372,86 +1030,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/admin/categs/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="50" selection-start="642" selection-end="642" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="525" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/settings/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="35" selection-start="307" selection-end="307" vertical-scroll-proportion="0.13812155" vertical-offset="0" max-vertical-offset="543" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/libraries/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="580" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/libraries/Breadcrumbs.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="5" selection-start="1327" selection-end="1327" vertical-scroll-proportion="1.188849" vertical-offset="149" max-vertical-offset="930" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/articles/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="82" selection-start="674" selection-end="674" vertical-scroll-proportion="0.3314917" vertical-offset="0" max-vertical-offset="543" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/libraries/Settings.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="5" selection-start="5" selection-end="5" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/pager_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="32" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="476" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/site/chunks/articles/favorite.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="73" selection-start="73" selection-end="73" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="153" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/libraries/Scripts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="375" selection-end="375" vertical-scroll-proportion="0.3287827" vertical-offset="0" max-vertical-offset="879" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/categs/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="0" selection-end="1939" vertical-scroll-proportion="0.27076223" vertical-offset="0" max-vertical-offset="879" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/site/chunks/meta/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="39" selection-start="348" selection-end="348" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/chunks/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="962" selection-end="962" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="476" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/meta/edit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="29" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="833" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/meta_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="30" selection-start="301" selection-end="311" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1292" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/site/articles/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="875" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/site/chunks/articles/list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="6" selection-start="568" selection-end="568" vertical-scroll-proportion="0.21322691" vertical-offset="0" max-vertical-offset="877" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/categs_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="29" selection-start="0" selection-end="2400" vertical-scroll-proportion="0.23261118" vertical-offset="0" max-vertical-offset="1615" />
@@ -467,24 +1045,9 @@
         <state line="61" column="31" selection-start="0" selection-end="4100" vertical-scroll-proportion="0.47916666" vertical-offset="623" max-vertical-offset="1513" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/articles_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="5" selection-start="1904" selection-end="1904" vertical-scroll-proportion="0.3990878" vertical-offset="925" max-vertical-offset="2108" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/pages_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="64" column="72" selection-start="1544" selection-end="1544" vertical-scroll-proportion="0.45724058" vertical-offset="687" max-vertical-offset="1564" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="694" selection-end="694" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="544" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/site/articles/item.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="865" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="877" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/site/pages/item.php">
@@ -502,29 +1065,9 @@
         <state line="111" column="152" selection-start="3223" selection-end="3223" vertical-scroll-proportion="-27.192308" vertical-offset="1180" max-vertical-offset="2057" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/pages.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="58" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="459" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/articles.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="64" selection-start="584" selection-end="584" vertical-scroll-proportion="-0.0" vertical-offset="204" max-vertical-offset="1105" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/pages/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="58" selection-start="745" selection-end="745" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="493" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/site/chunks/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="39" selection-start="76" selection-end="76" vertical-scroll-proportion="0.058020476" vertical-offset="0" max-vertical-offset="879" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/site/chunks/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="14" selection-start="11" selection-end="350" vertical-scroll-proportion="0.2320819" vertical-offset="0" max-vertical-offset="879" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/brutality/js/cropper/images-loaded.js">
@@ -537,19 +1080,9 @@
         <state line="244" column="1" selection-start="3598" selection-end="3598" vertical-scroll-proportion="0.0" vertical-offset="3634" max-vertical-offset="4573" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/site/chunks/menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="1606" selection-end="1606" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="731" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/brutality/js/cropper/cropper.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="303" column="44" selection-start="7737" selection-end="7737" vertical-scroll-proportion="-0.019653179" vertical-offset="5168" max-vertical-offset="16864" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/site/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="42" selection-start="347" selection-end="347" vertical-scroll-proportion="0.25199544" vertical-offset="0" max-vertical-offset="877" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/brutality/css/style.css">
@@ -567,86 +1100,249 @@
         <state line="0" column="0" selection-start="0" selection-end="2558" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1071" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/chunks/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="98" selection-start="185" selection-end="185" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="357" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/brutality/css/system.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="14" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1683" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/gallery/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="129" selection-start="903" selection-end="903" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="646" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/core/Common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="327" column="13" selection-start="7505" selection-end="7505" vertical-scroll-proportion="0.34275618" vertical-offset="5268" max-vertical-offset="9673" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/chunks/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="41" selection-start="260" selection-end="260" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="357" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/pages.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="238" selection-end="238" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="493" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/site/chunks/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="57" selection-start="754" selection-end="754" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="731" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="64" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="10285" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="5" selection-start="2855" selection-end="2857" vertical-scroll-proportion="0.0" vertical-offset="621" max-vertical-offset="1445" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/site/chunks/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="89" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/articles/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="45" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/chunks/menu.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="33" selection-start="1125" selection-end="1125" vertical-scroll-proportion="0.0" vertical-offset="20" max-vertical-offset="867">
+        <state line="40" column="10" selection-start="1957" selection-end="1957" vertical-scroll-proportion="0.0" vertical-offset="680" max-vertical-offset="850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="109" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="544">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/helpers/basic_helper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="37" selection-start="2827" selection-end="2827" vertical-scroll-proportion="0.0" vertical-offset="1630" max-vertical-offset="2550">
+        <state line="136" column="9" selection-start="3170" selection-end="3170" vertical-scroll-proportion="0.33333334" vertical-offset="2029" max-vertical-offset="3230">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/routes.php">
+    <entry file="file://$PROJECT_DIR$/application/libraries/Breadcrumbs.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="0" selection-start="2222" selection-end="2222" vertical-scroll-proportion="0.0" vertical-offset="479" max-vertical-offset="1343">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/gallery/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="129" selection-start="903" selection-end="903" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="646">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/gallery_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="32" selection-start="3728" selection-end="3728" vertical-scroll-proportion="0.0" vertical-offset="2142" max-vertical-offset="4182">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/config/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="430" column="45" selection-start="14824" selection-end="14824" vertical-scroll-proportion="0.0" vertical-offset="6548" max-vertical-offset="7497">
+        <state line="22" column="24" selection-start="453" selection-end="453" vertical-scroll-proportion="0.2591284" vertical-offset="154" max-vertical-offset="1003">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/brutality/js/sortable/sortable.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="3" selection-start="168" selection-end="694" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="510">
+        <state line="1" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/admin.php">
+    <entry file="file://$PROJECT_DIR$/application/views/site/articles/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="340" column="48" selection-start="9239" selection-end="9239" vertical-scroll-proportion="0.0" vertical-offset="5523" max-vertical-offset="10285">
+        <state line="15" column="26" selection-start="628" selection-end="628" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="425">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/gallery/images.php">
+    <entry file="file://$PROJECT_DIR$/application/libraries/Scripts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="22" selection-start="648" selection-end="648" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1173">
+        <state line="11" column="0" selection-start="208" selection-end="208" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/brutality/css/jquery.fancybox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="27" selection-start="1394" selection-end="1394" vertical-scroll-proportion="-5.48" vertical-offset="1052" max-vertical-offset="4743">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/brutality/js/gallery/gallery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="28" selection-start="1889" selection-end="1889" vertical-scroll-proportion="1.3283063" vertical-offset="96" max-vertical-offset="3485">
+        <state line="9" column="71" selection-start="275" selection-end="275" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="3485">
           <folding>
-            <marker date="1409550059006" expanded="false" signature="3203:3230" placeholder="..." />
-            <marker date="1409550059006" expanded="false" signature="3371:3398" placeholder="..." />
+            <marker date="1409656557383" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1409656557383" expanded="false" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/site/chunks/articles/favorite.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="77" selection-start="408" selection-end="408" vertical-scroll-proportion="0.1605667" vertical-offset="0" max-vertical-offset="847">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/brutality/js/mouse_wheel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="492" selection-start="1384" selection-end="1384" vertical-scroll-proportion="0.039534885" vertical-offset="0" max-vertical-offset="860">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/articles_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="83" selection-start="2133" selection-end="2133" vertical-scroll-proportion="-19.615385" vertical-offset="884" max-vertical-offset="2686">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/gallery/images.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="28" selection-start="958" selection-end="1184" vertical-scroll-proportion="0.30342385" vertical-offset="117" max-vertical-offset="1173">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/gallery_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="198" column="9" selection-start="5636" selection-end="5636" vertical-scroll-proportion="-12.384615" vertical-offset="3044" max-vertical-offset="4420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/site/chunks/gallery/images.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="117" selection-start="330" selection-end="330" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/site/chunks/gallery/image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="111" selection-start="77" selection-end="111" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="102">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/chunks/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="819" selection-end="894" vertical-scroll-proportion="0.36127508" vertical-offset="0" max-vertical-offset="847">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/site/chunks/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="78" selection-start="533" selection-end="533" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/site/chunks/articles/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="25" selection-start="211" selection-end="211" vertical-scroll-proportion="-5.230769" vertical-offset="0" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/brutality/js/admin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="26" selection-start="1067" selection-end="1067" vertical-scroll-proportion="0.0" vertical-offset="232" max-vertical-offset="1122">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/brutality/js/system.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="19" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/articles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="70" selection-start="2165" selection-end="2165" vertical-scroll-proportion="-20.807692" vertical-offset="258" max-vertical-offset="1105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="376" column="63" selection-start="13156" selection-end="13156" vertical-scroll-proportion="-5.769231" vertical-offset="6242" max-vertical-offset="7650">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/admin/login/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="46" selection-start="46" selection-end="46" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="340">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/login_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="125" selection-start="829" selection-end="829" vertical-scroll-proportion="-20.26923" vertical-offset="0" max-vertical-offset="714">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/site/articles/item.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="18" selection-start="483" selection-end="483" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="900" selection-end="900" vertical-scroll-proportion="0.56198347" vertical-offset="0" max-vertical-offset="847">
+          <folding />
         </state>
       </provider>
     </entry>

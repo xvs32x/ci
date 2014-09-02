@@ -18,7 +18,7 @@ class Admin extends CI_Controller {
 	 * Страница входа
 	 * */
 	public function login($form_success = FALSE){
-		is_admin() AND redirect('/admin/');
+		is_admin() AND redirect(Settings::get('site_url').'admin');
 		$this->load->helper(array('form', 'url'));
 		$this->load->view('admin/login/index', array(
 			'form_success' => $form_success,
@@ -28,13 +28,13 @@ class Admin extends CI_Controller {
 			$this->login_model->validate();
 			//Валидация данных
 			if ($this->form_validation->run() == FALSE) {
-				redirect('/admin/login/failed');
+				redirect(Settings::get('site_url').'admin/login/failed');
 			} else {
 				if($this->login_model->login_as_admin()) {
 					$this->session->set_userdata('admin', TRUE);
-					redirect('/admin/');
+					redirect(Settings::get('site_url').'admin/');
 				} else {
-					redirect('/admin/login/failed');
+					redirect(Settings::get('site_url').'admin/login/failed');
 				}
 			}
 		}
@@ -45,7 +45,7 @@ class Admin extends CI_Controller {
 	 * */
 	public function logout(){
 		$this->session->unset_userdata('admin');
-		redirect('/');
+		redirect(Settings::get('site_url'));
 	}
 
 	/*===============================================Settings===================================================================*/

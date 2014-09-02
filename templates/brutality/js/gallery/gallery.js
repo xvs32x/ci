@@ -7,7 +7,7 @@ $(function(){
 		return '' +
 			'<div class="col-sm-6 col-md-4 col-xs-12 col-lg-3" id="id_'+data.id+'">' +
 			'	<div class="thumbnail">' +
-			'		<a href="'+data.resized+'" class="colorbox">'+
+			'		<a href="'+data.resized+'" class="colorbox fancybox">'+
 			'			<img src="'+data.thumb+'" alt="">' +
 			'		</a>'+
 			'		<div class="caption">' +
