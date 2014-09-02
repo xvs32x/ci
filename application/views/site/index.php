@@ -1,6 +1,7 @@
 <?= $this->load->view('site/chunks/header') ?>
 <?= $this->load->view('site/chunks/menu') ?>
 
+
 <? if(Settings::get('site_jumbotron')):?>
 	<div class="jumbotron">
 		<?= Settings::get('site_jumbotron') ?>

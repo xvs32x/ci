@@ -373,8 +373,8 @@ $config['site_meta_description'] = 'Прекраснейшая CMS для люб
 /*
  * Admin password
  * */
-$config['admin_username'] = 'gavrila';
-$config['admin_password'] = '4a606a2cc0e5bac3b4238cd024f89ef2';
+$config['admin_username'] = 'admin';
+$config['admin_password'] = '21232f297a57a5a743894a0e4a801fc3';
 
 
 /*
