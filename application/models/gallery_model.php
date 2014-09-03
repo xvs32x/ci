@@ -208,14 +208,14 @@ class gallery_model extends CI_Model {
 	 * Вывод изображений для нескольких альбомов сразу(для разводящих компонента)
 	 * */
 	public function get_component_images_by_albums($idx, $component){
-		return $this->db
+		return $idx ? $this->db
 			->select('*')
 			->from($this->table_images)
 			->where('component', $component)
 			->where_in('album_id', $idx)
 			->order_by('position asc, id asc')
 			->get()
-			->result();
+			->result() : NULL;
 	}
 
 	/*

@@ -10,7 +10,8 @@ class Articles extends CI_Controller {
 	public function index($page = 1){
 		Breadcrumbs::set(Settings::get('site_url').'articles/', 'Статьи', 'glyphicon glyphicon-file');
 		$this->db->limit(Settings::get('articles_items_per_pages'), Settings::get('articles_items_per_pages')*($page-1));
-		$list = $this->articles_model->get_list_width_images() OR show_404();
+		$list = $this->articles_model->get_list_width_images();
+		get_value($list, 'articles') or  show_404();
 		$this->pager_model->get_pager(array(
 			'base_url' => Settings::get('site_url').'articles/',
 			'total_rows' => $this->db->count_all($this->articles_model->table),
