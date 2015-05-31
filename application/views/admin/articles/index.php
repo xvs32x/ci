@@ -28,7 +28,7 @@
                                 <a class="btn btn-small btn-primary upload" href="admin/articles/images/<?= $item->id ?>/articles">
                                     <span class="glyphicon glyphicon-picture"></span>
                                 </a>
-                                <a class="btn btn-small btn-danger delete" href="admin/album_delete/<?= $item->id ?>/articles">
+                                <a class="btn btn-small btn-danger delete" href="admin/article_delete/<?= $item->id ?>/articles">
                                     <span class="glyphicon glyphicon-remove"></span>
                                 </a>
                             </td>

@@ -28,13 +28,13 @@
 	<hr/>
 <? endif ?>
 
-
+<? if(Settings::get('site_index_text')): ?>
 	<div class="row">
 		<div class="col-md-12">
 			<div class="well"><?= Settings::get('site_index_text') ?></div>
 		</div>
 	</div>
-
+<? endif ?>
 
 
 <?= $this->load->view('site/chunks/footer') ?>

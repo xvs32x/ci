@@ -11,7 +11,7 @@ class Settings {
 	}
 
 	public static function get($param){
-		return self::$settings[$param] ? self::$settings[$param] : FALSE;
+		return isset(self::$settings[$param]) ? self::$settings[$param] : FALSE;
 	}
 
 	public static function set($key, $value){

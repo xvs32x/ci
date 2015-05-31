@@ -20,7 +20,7 @@
                                 <a class="btn btn-small btn-primary upload" href="admin/pages/images/<?= $item->id ?>/pages">
                                     <span class="glyphicon glyphicon-picture"></span>
                                 </a>
-                                <a class="btn btn-small btn-danger delete" href="admin/album_delete/<?= $item->id ?>/pages">
+                                <a class="btn btn-small btn-danger delete" href="admin/page_delete/<?= $item->id ?>/pages">
                                     <span class="glyphicon glyphicon-remove"></span>
                                 </a>
                             </td>

@@ -26,7 +26,7 @@ $config['base_url']	= '';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = '/ci/';
+$config['index_page'] = '/';
 
 /*
 |--------------------------------------------------------------------------
@@ -361,7 +361,7 @@ $config['proxy_ips'] = '';
 /*
  * site config
  * */
-$config['site_url'] = 'http://localhost/ci/';
+$config['site_url'] = 'http://faq.scriptogenius.com/';
 
 /*
  * default metas

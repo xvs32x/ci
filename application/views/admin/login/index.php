@@ -2,7 +2,7 @@
 
 <div class="container">
 	<div class="row content">
-		<?= form_open('admin/login', array('role' => 'form', 'class' => 'form-signin'))?>
+		<?= form_open(Settings::get('site_url').'admin/login', array('role' => 'form', 'class' => 'form-signin'))?>
 			<?= show_message($form_success)?>
 			<?= show_message(validation_errors())?>
 			<h2 class="form-signin-heading">Пожалуйста войдите</h2>
